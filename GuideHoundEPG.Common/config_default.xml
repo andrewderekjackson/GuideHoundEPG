@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<epgDownloaderConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <output importIntoMediaCenter="true" />
+  <sources>
+    <source xsi:type="xmlTvSource" sourceName="Example: Freeview (New Zealand)" sourceEnabled="true" commandEnabled="false" sourceUri="http://nzepg.org/freeview.xml.gz">
+      <channels>
+        <channel id="1" xmlTvId="tv1.freeviewnz.tv" name="TV One" logoUrl="http://www.freeviewnz.tv/images/uploads/tv_one.jpg" isAudio="false" isEnabled="true" />
+        <channel id="2" xmlTvId="tv2.freeviewnz.tv" name="TV2" logoUrl="http://www.freeviewnz.tv/images/uploads/tv_2.jpg" isAudio="false" isEnabled="true" />
+        <channel id="3" xmlTvId="tv3.freeviewnz.tv" name="TV3" logoUrl="http://www.freeviewnz.tv/images/uploads/tv_3.jpg" isAudio="false" isEnabled="true" />
+        <channel id="4" xmlTvId="c4.freeviewnz.tv" name="C4" logoUrl="http://www.freeviewnz.tv/images/uploads/logo-opg-c4-red.png" isAudio="false" isEnabled="true" />
+        <channel id="5" xmlTvId="maori-tv.freeviewnz.tv" name="Maori Television" logoUrl="http://www.freeviewnz.tv/images/uploads/maori_tv.jpg" isAudio="false" isEnabled="true" />
+        <channel id="6" xmlTvId="tvnz6.freeviewnz.tv" name="TVNZ 6" logoUrl="http://www.freeviewnz.tv/images/uploads/tvnz_6.jpg" isAudio="false" isEnabled="true" />
+        <channel id="7" xmlTvId="tvnz7.freeviewnz.tv" name="TVNZ 7" logoUrl="http://www.freeviewnz.tv/images/uploads/tvnz_7.jpg" isAudio="false" isEnabled="true" />
+        <channel id="8" xmlTvId="tv3-plus1.freeviewnz.tv" name="TV3 PLUS 1" logoUrl="http://www.freeviewnz.tv/images/uploads/freeview_3plus1_logo_107x35.jpg" isAudio="false" isEnabled="true" />
+        <channel id="9" xmlTvId="c42.freeviewnz.tv" name="C42" logoUrl="http://www.freeviewnz.tv/images/uploads/c42_107x35.jpg" isAudio="false" isEnabled="true" />
+        <channel id="10" xmlTvId="prime.freeviewnz.tv" name="PRIME" logoUrl="http://www.freeviewnz.tv/images/uploads/Prime_TV_107x35.jpg" isAudio="false" isEnabled="true" />
+        <channel id="11" xmlTvId="stratos.freeviewnz.tv" name="Triangle Stratos" logoUrl="http://www.freeviewnz.tv/images/uploads/stratos_107x35.jpg" isAudio="false" isEnabled="false" />
+        <channel id="12" xmlTvId="parliament.freeviewnz.tv" name="Parliament TV" logoUrl="http://www.freeviewnz.tv/images/uploads/parliament.jpg" isAudio="false" isEnabled="false" />
+        <channel id="13" xmlTvId="cue.freeviewnz.tv" name="CUE" logoUrl="http://www.freeviewnz.tv/images/uploads/cue.jpg" isAudio="false" isEnabled="false" />
+        <channel id="14" xmlTvId="te-reo.freeviewnz.tv" name="Te Reo" logoUrl="http://www.freeviewnz.tv/images/uploads/te_reo.jpg" isAudio="false" isEnabled="false" />
+        <channel id="15" xmlTvId="shinetv.freeviewnz.tv" name="Shine TV" logoUrl="http://www.freeviewnz.tv/images/uploads/shinetv_107x35.jpg" isAudio="false" isEnabled="false" />
+        <channel id="16" xmlTvId="ctv8.freeviewnz.tv" name="Chinese TV 8" logoUrl="http://www.freeviewnz.tv/images/uploads/ctv8.gif" isAudio="false" isEnabled="false" />
+        <channel id="17" xmlTvId="tvcentral.freeviewnz.tv" name="tvCentral" logoUrl="http://www.freeviewnz.tv/images/uploads/tvcentral.jpg" isAudio="false" isEnabled="false" />
+        <channel id="18" xmlTvId="rnz-national.freeviewnz.tv" name="Radio New Zealand National" logoUrl="http://www.freeviewnz.tv/images/uploads/radio_nz_national.jpg" isAudio="true" isEnabled="true" />
+        <channel id="19" xmlTvId="rnz-concert.freeviewnz.tv" name="Radio New Zealand Concert" logoUrl="http://www.freeviewnz.tv/images/uploads/radio_nz_concert.jpg" isAudio="true" isEnabled="true" />
+        <channel id="20" xmlTvId="george-fm.freeviewnz.tv" name="George FM" logoUrl="http://www.freeviewnz.tv/images/uploads/george_fm.jpg" isAudio="true" isEnabled="true" />
+        <channel id="21" xmlTvId="base-fm.freeviewnz.tv" name="Base FM" logoUrl="http://www.freeviewnz.tv/images/uploads/basefm.jpg" isAudio="true" isEnabled="true" />
+      </channels>
+    </source>
+    <source xsi:type="xmlTvSource" sourceName="Example: Geekzone EPG Collector" sourceEnabled="false" command="c:\Program Files (x86)\Geekzone\EPG Collector\EPGCollector.exe" commandEnabled="true" commandStartFolder="C:\Program Files (x86)\Geekzone\EPG Collector\" sourceUri="C:\ProgramData\Geekzone\EPG Collector\TVGuide.xml">
+      <channels />
+    </source>
+  </sources>
+  <categoryMapping categoryMappingEnabled="true">
+    <categoryMap>
+      <categoryMap sourceCategory="movie" mappedCategory="Movie" />
+      <categoryMap sourceCategory="series" mappedCategory="Series" />
+      <categoryMap sourceCategory="tvshow" mappedCategory="Series" />
+    </categoryMap>
+  </categoryMapping>
+  <categoryDetection basicDetectionEnabled="false" movieDurationMatchingEnabled="false" minimumMovieDurationInMinutes="70" maximumMovieDurationInMinutes="150" keywordDetectionEnabled="true" useDefaultIfUnmatched="false" unmatchedCategory="Series">
+    <keywords>
+      <keyword word="movie" category="Movie" />
+      <keyword word="blockbuster" category="Movie" />
+      <keyword word="theatre" category="Movie" />
+      <keyword word="news" category="News" />
+      <keyword word="business" category="News" />
+      <keyword word="sport" category="Sports" />
+      <keyword word="golf" category="Sports" />
+      <keyword word="v8" category="Sports" />
+      <keyword word="supercars" category="Sports" />
+      <keyword word="rugby" category="Sports" />
+      <keyword word="cricket" category="Sports" />
+      <keyword word="netball" category="Sports" />
+      <keyword word="icc" category="Sports" />
+      <keyword word="sportswatch" category="Sports" />
+      <keyword word="infomercials" category="None" />
+      <keyword word="infomercial" category="None" />
+      <keyword word="bbc world" category="None" />
+      <keyword word="closedown" category="None" />
+      <keyword word="omnibus" category="None" />
+      <keyword word="sunrise" category="None" />
+      <keyword word="breakfast" category="None" />
+      <keyword word="vodafone" category="None" />
+      <keyword word="blender" category="None" />
+      <keyword word="insomnia" category="None" />
+      <keyword word="shopping" category="None" />
+    </keywords>
+  </categoryDetection>
+  <metadataOptions tvSeriesMetadataServiceEnabled="false" movieMetadataServiceEnabled="true" />
+</epgDownloaderConfig>

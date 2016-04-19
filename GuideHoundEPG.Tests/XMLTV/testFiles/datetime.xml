@@ -1,0 +1,2210 @@
+<tv date="20100427011502 +1200" generator-info-name="epgsnoop-grabber">
+		<programme channel="tv1.freeviewnz.tv" start="20100426004500 +1200" stop="20100426011000 +1200">
+		<title>Auction House</title>
+		<desc>A local series that goes behind-the-scenes in the world of auctions, art and antiques.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426060000 +1200" stop="20100426063000 +1200">
+		<title>NZI Business</title>
+		<desc>Setting the business agenda and leading your business day. The daily morning business programme is hosted by TVNZ broadcast journalist Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426063000 +1200" stop="20100426090000 +1200">
+		<title>Breakfast</title>
+		<desc>Paul Henry, Pippa Wetzell and the Breakfast team bring viewers the day's big news, interviews, weather and information, along with their unique sense of humour, to start the day.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426090000 +1200" stop="20100426120000 +1200">
+		<title>Good Morning</title>
+		<desc>Robyn Malcolm talks about the Reel Earth Film Festival; professional make-up artists offer tips on different skin types; and Dunedin chef Judith Cullen prepares a hearty winter meal.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426120000 +1200" stop="20100426123000 +1200">
+		<title>ONE News At Midday</title>
+		<desc>The latest news, weather, sport and market updates from ONE News to complete your morning.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426123000 +1200" stop="20100426133000 +1200">
+		<title>Emmerdale</title>
+		<desc>Jamie buys Louise a necklace; Jack tries to make amends with Victoria; and Zak bumps into an old adversary.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426133000 +1200" stop="20100426140000 +1200">
+		<title>Airline</title>
+		<desc>A 14-year-old boy tries to check in without a passport; captain Lance Jordon reveals a hidden side to his character; and in Liverpool the last flight to Luton is cancelled and then put back on.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426140000 +1200" stop="20100426150000 +1200">
+		<title>Days Of Our Lives</title>
+		<desc>Follow the dramatic events of the Horton, Brady, and Reed families, their friends, neighbours and acquaintances.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426150000 +1200" stop="20100426160000 +1200">
+		<title>60 Minute Makeover</title>
+		<desc>Claire Sweeney presents the makeover show that puts her in a race against the clock to make homeowners' dreams a reality.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426160000 +1200" stop="20100426163000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426163000 +1200" stop="20100426170000 +1200">
+		<title>ONE News At 4.30</title>
+		<desc>The latest news, weather, traffic and market updates LIVE from ONE News - first at 4:30.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426170000 +1200" stop="20100426180000 +1200">
+		<title>Ellen</title>
+		<desc>Ellen DeGeneres brings her unique brand of hilarity to daytime talk, with guest appearances from Eva Longoria Parker; Jodie Nelson; and Crystal Swing.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426180000 +1200" stop="20100426190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426190000 +1200" stop="20100426193000 +1200">
+		<title>Close Up</title>
+		<desc>Mark Sainsbury presents New Zealand's most popular daily current affairs programme, featuring investigations and interviews with newsmakers. See tvnz.co.nz/closeup for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426193000 +1200" stop="20100426200000 +1200">
+		<title>Coastwatch</title>
+		<desc>An action-packed reality series following the men and women who patrol, protect and preserve New Zealand&#8217;s waterways and fisheries.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426200000 +1200" stop="20100426203000 +1200">
+		<title>Medical Emergency</title>
+		<desc>A 16-year-old learner driver is rushed to The Alfred after being in a car accident; a patient whose appendix may have ruptured is rushed into surgery; and paramedics are called to a hockey match.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426203000 +1200" stop="20100426214000 +1200">
+		<title>The Pacific</title>
+		<desc>Physically and mentally debilitated after the four-month ordeal on Guadalcanal, Leckie, Basilone and thousands of their comrades land in Melbourne, where they're greeted by adoring crowds.</desc>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426214000 +1200" stop="20100426224000 +1200">
+		<title>Cops With Cameras</title>
+		<desc>The anti-robbery squad are tasked with tackling street theft; sergeant Mike Peake leads the divisional task force on a search warrant; and plain-clothes officers are on patrol in south east London.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426224000 +1200" stop="20100426231000 +1200">
+		<title>ONE News Tonight</title>
+		<desc>Greg Boyed brings you the last word in news and Renee Wright summarises tomorrow's weather.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100426231000 +1200" stop="20100427001000 +1200">
+		<title>The Prisoner</title>
+		<desc>Six is invited to The Village dating agency where he meets and falls in love with another villager; and tragedy strikes the villagers as mysterious holes begin to appear throughout the town.</desc>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427001000 +1200" stop="20100427010500 +1200">
+		<title>Ross Kemp In Afghanistan</title>
+		<desc>Ross joins one Royal Anglian as they capture and destroy the compound in which the three men were killed; and back in the UK, Ross talks to the Foster family about their tragic loss.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427010500 +1200" stop="20100427013000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427053500 +1200" stop="20100427060000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427060000 +1200" stop="20100427063000 +1200">
+		<title>NZI Business</title>
+		<desc>Setting the business agenda and leading your business day. The daily morning business programme is hosted by TVNZ broadcast journalist Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427063000 +1200" stop="20100427090000 +1200">
+		<title>Breakfast</title>
+		<desc>Paul Henry, Pippa Wetzell and the Breakfast team bring viewers the day's big news, interviews, weather and information, along with their unique sense of humour, to start the day.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427090000 +1200" stop="20100427120000 +1200">
+		<title>Good Morning</title>
+		<desc>The world renowned Harlem Gospel Choir performs; Kate 'the nappy lady' Meads talks about real nappy week; and Simon Holst cooks family friendly meals.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427120000 +1200" stop="20100427123000 +1200">
+		<title>ONE News At Midday</title>
+		<desc>The latest news, weather, sport and market updates from ONE News to complete your morning.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427123000 +1200" stop="20100427133000 +1200">
+		<title>Emmerdale</title>
+		<desc>Louise tries to patch things up with Jamie; Emily's chances of landing the playworker job diminish; and Carrie and Matthew return from their business trip.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427133000 +1200" stop="20100427140000 +1200">
+		<title>Airline</title>
+		<desc>A family's passports fall under the conveyor belt at the check-in; confusion arises about check-in times; and when a passenger forgets his passport, his girlfriend flies down to Luton with it.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427140000 +1200" stop="20100427150000 +1200">
+		<title>Days Of Our Lives</title>
+		<desc>Follow the dramatic events of the Horton, Brady, and Reed families, their friends, neighbours and acquaintances.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427150000 +1200" stop="20100427160000 +1200">
+		<title>60 Minute Makeover</title>
+		<desc>Claire Sweeney presents the makeover show that puts her in a race against the clock to make homeowners' dreams a reality.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427160000 +1200" stop="20100427163000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427163000 +1200" stop="20100427170000 +1200">
+		<title>ONE News At 4.30</title>
+		<desc>The latest news, weather, traffic and market updates LIVE from ONE News - first at 4:30.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427170000 +1200" stop="20100427180000 +1200">
+		<title>Ellen</title>
+		<desc>Ellen DeGeneres brings her unique brand of hilarity to daytime talk, with guest appearances from Kirstie Alley; Matthew Morrison; and Cyndi Lauper.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427180000 +1200" stop="20100427190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427190000 +1200" stop="20100427193000 +1200">
+		<title>Close Up</title>
+		<desc>Mark Sainsbury presents New Zealand's most popular daily current affairs programme, featuring investigations and interviews with newsmakers. See tvnz.co.nz/closeup for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427193000 +1200" stop="20100427203000 +1200">
+		<title>Coronation Street</title>
+		<desc>Pam's scheme comes to an explosive head; Lloyd makes his feelings clear; and Tara accuses Dev of sabotaging the flat.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427203000 +1200" stop="20100427213000 +1200">
+		<title>I Shouldn't Be Alive</title>
+		<desc>Answering the call of nature during the night while hiking, Warren Macdonald dislodges a huge slab of rock which falls and traps him in the riverbed.</desc>
+		<category>tvshow</category>
+		<category>Documentary</category>
+		<episode-num system="xmltv_ns">1.0.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427213000 +1200" stop="20100427223000 +1200">
+		<title>Real Crime: Gangs Of Oz</title>
+		<desc>The family of a murdered civilian speak for the first time about how their son got caught up in the gang world; and get the inside story of one of the most brutal wars fought by Australian bikies.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427223000 +1200" stop="20100427230000 +1200">
+		<title>ONE News Tonight</title>
+		<desc>Greg Boyed brings you the last word in news and Renee Wright summarises tomorrow's weather.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427230000 +1200" stop="20100427235500 +1200">
+		<title>Eleventh Hour</title>
+		<desc>When college students in landlocked Oklahoma begin dying of the bends, Dr Jacob Hood's investigation uncovers an elaborate medical cover-up on campus.</desc>
+		<episode-num system="xmltv_ns">0.7.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100427235500 +1200" stop="20100428005000 +1200">
+		<title>Someone Somewhere Loves Me</title>
+		<desc>This documentary by filmmaker Rob Harley follows Sue Van Schreven's efforts, in Romania and New Zealand, to understand some of her abandoned childrens&#8217; fractured families and lives.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428005000 +1200" stop="20100428011500 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428053500 +1200" stop="20100428060000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428060000 +1200" stop="20100428063000 +1200">
+		<title>NZI Business</title>
+		<desc>Setting the business agenda and leading your business day. The daily morning business programme is hosted by TVNZ broadcast journalist Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428063000 +1200" stop="20100428090000 +1200">
+		<title>Breakfast</title>
+		<desc>Paul Henry, Pippa Wetzell and the Breakfast team bring viewers the day's big news, interviews, weather and information, along with their unique sense of humour, to start the day.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428090000 +1200" stop="20100428120000 +1200">
+		<title>Good Morning</title>
+		<desc>Mike King talks about fighting alcohol and depression; minister of social development, Paula Bennett, discusses raising kids alone; and antiques expert Anthony Gallagher assesses viewers' antiques.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428120000 +1200" stop="20100428123000 +1200">
+		<title>ONE News At Midday</title>
+		<desc>The latest news, weather, sport and market updates from ONE News to complete your morning.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428123000 +1200" stop="20100428133000 +1200">
+		<title>Emmerdale</title>
+		<desc>Sparks fly between Barraclough and Carl; Andy agrees to let Sarah spend more time with the Dingles; and Paddy plans to buy out Hari but Matthew wants a piece.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428133000 +1200" stop="20100428140000 +1200">
+		<title>Airline</title>
+		<desc>A couple arrive at Luton airport for their flight a whole day late; a group of Scottish football supporters' flight is delayed; and a family arrive for their flight after check-in has closed.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428140000 +1200" stop="20100428150000 +1200">
+		<title>Days Of Our Lives</title>
+		<desc>Follow the dramatic events of the Horton, Brady, and Reed families, their friends, neighbours and acquaintances.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428150000 +1200" stop="20100428160000 +1200">
+		<title>60 Minute Makeover</title>
+		<desc>Claire Sweeney presents the makeover show that puts her in a race against the clock to make homeowners' dreams a reality.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428160000 +1200" stop="20100428163000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428163000 +1200" stop="20100428170000 +1200">
+		<title>ONE News At 4.30</title>
+		<desc>The latest news, weather, traffic and market updates LIVE from ONE News - first at 4:30.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428170000 +1200" stop="20100428180000 +1200">
+		<title>Ellen</title>
+		<desc>Ellen DeGeneres brings her unique brand of hilarity to daytime talk, with guest appearances from Alyson Hannigan; and Maria Bartiromo.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428180000 +1200" stop="20100428190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428190000 +1200" stop="20100428193000 +1200">
+		<title>Close Up</title>
+		<desc>Mark Sainsbury presents New Zealand's most popular daily current affairs programme, featuring investigations and interviews with newsmakers. See tvnz.co.nz/closeup for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428193000 +1200" stop="20100428213000 +1200">
+		<title>MasterChef New Zealand</title>
+		<desc>In the two-hour grand final, the two finalists face four gruelling challenges to decide who will win the first-ever MasterChef New Zealand title and over $100,000 worth of prizes.</desc>
+		<episode-num system="xmltv_ns">0.12.0</episode-num>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428213000 +1200" stop="20100428223000 +1200">
+		<title>Real Life: A Living Nightmare</title>
+		<desc>A look at brain disorders that have played havoc with the lives of their sufferers, including a mum of four with no memory of her children, and a teenager who sleeps for months at a time.</desc>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428223000 +1200" stop="20100428230000 +1200">
+		<title>ONE News Tonight</title>
+		<desc>Greg Boyed brings you the last word in news and Renee Wright summarises tomorrow's weather.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100428230000 +1200" stop="20100429000000 +1200">
+		<title>The Palace</title>
+		<desc>A break-in at Clarence House finds Natalie saving Princess Eleanor from the intruder; and Richard is under pressure to be the perfect monarch, as the royal drama continues.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429000000 +1200" stop="20100429005000 +1200">
+		<title>Paradise Lost</title>
+		<desc>Mark Seidenfeld thrives in his new job in Kazakhstan, but is thrown into a freezing Siberian prison, on trumped up charges, after falling on the wrong side of a local powerbroker.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429005000 +1200" stop="20100429011500 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429053500 +1200" stop="20100429060000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429060000 +1200" stop="20100429063000 +1200">
+		<title>NZI Business</title>
+		<desc>Setting the business agenda and leading your business day. The daily morning business programme is hosted by TVNZ broadcast journalist Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429063000 +1200" stop="20100429090000 +1200">
+		<title>Breakfast</title>
+		<desc>Paul Henry, Pippa Wetzell and the Breakfast team bring viewers the day's big news, interviews, weather and information, along with their unique sense of humour, to start the day.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429090000 +1200" stop="20100429120000 +1200">
+		<title>Good Morning</title>
+		<desc>Contestants from Cleo Bachelor Of The Year join the Good Morning crew; and Astar has gift ideas for mums.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429120000 +1200" stop="20100429123000 +1200">
+		<title>ONE News At Midday</title>
+		<desc>The latest news, weather, sport and market updates from ONE News to complete your morning.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429123000 +1200" stop="20100429133000 +1200">
+		<title>Emmerdale</title>
+		<desc>Matthew tries to force Paddy into business with him; Lexi causes chaos at the factory; and Jimmy worries Kelly's new career will take her away from him.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429133000 +1200" stop="20100429140000 +1200">
+		<title>Airline</title>
+		<desc>A passenger services agent is determined to get a promotion to supervisor; airport duty manager Alan Darbyshire loses his cool; and in the terminal, strip group The Dreamboys are causing a stir.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429140000 +1200" stop="20100429150000 +1200">
+		<title>Days Of Our Lives</title>
+		<desc>Follow the dramatic events of the Horton, Brady, and Reed families, their friends, neighbours and acquaintances.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429150000 +1200" stop="20100429160000 +1200">
+		<title>60 Minute Makeover</title>
+		<desc>Claire Sweeney presents the makeover show that puts her in a race against the clock to make homeowners' dreams a reality.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429160000 +1200" stop="20100429163000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429163000 +1200" stop="20100429170000 +1200">
+		<title>ONE News At 4.30</title>
+		<desc>The latest news, weather, traffic and market updates LIVE from ONE News - first at 4:30.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429170000 +1200" stop="20100429180000 +1200">
+		<title>Ellen</title>
+		<desc>Ellen DeGeneres brings her unique brand of hilarity to daytime talk, with guest appearances from David Duchovny; Aziz Ansari; and Erin Andrews and Maks Chmerkovskiy.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429180000 +1200" stop="20100429190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429190000 +1200" stop="20100429193000 +1200">
+		<title>Close Up</title>
+		<desc>Mark Sainsbury presents New Zealand's most popular daily current affairs programme, featuring investigations and interviews with newsmakers. See tvnz.co.nz/closeup for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429193000 +1200" stop="20100429203000 +1200">
+		<title>Coronation Street</title>
+		<desc>Molly gives Tyrone her answer; Becky issues Steve with a final ultimatum; and Tara grows closer to Dev but has bad news.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429203000 +1200" stop="20100429212500 +1200">
+		<title>The Forgotten</title>
+		<desc>The case of a John Doe left beaten on the street and ravaged by past injuries, leads The Forgotten Network into the world of professional football.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429212500 +1200" stop="20100429222000 +1200">
+		<title>Criminal Minds</title>
+		<sub-title>House on Fire</sub-title>
+		<desc>The BAU team must track down a serial arsonist who instills fear in a small town by setting fire to community meeting places and killing several residents in the process.</desc>
+		<date>20090325</date>
+		<category>series</category>
+		<category>Crime/Drama</category>
+		<episode-num system="xmltv_ns">3.18.0</episode-num>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<previously-shown />
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+		<star-rating>
+			<value>7.0/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429222000 +1200" stop="20100429225000 +1200">
+		<title>ONE News Tonight</title>
+		<desc>Greg Boyed brings you the last word in news and Renee Wright summarises tomorrow's weather.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429225000 +1200" stop="20100429232000 +1200">
+		<title>Tagata Pasifika</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429232000 +1200" stop="20100429235000 +1200">
+		<title>Firefighters</title>
+		<desc>Senior station officer Shane Howe and his Manukau Green Watch crew are woken at 1.00am to deal with a ute on fire.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100429235000 +1200" stop="20100430004500 +1200">
+		<title>Under Investigation: Medical Mysteries</title>
+		<desc>The story of an international connection that has seen a little boy in Washington DC provide the answer to a riddle that has baffled one New Zealand Maori tribe for generations.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430004500 +1200" stop="20100430011000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430053500 +1200" stop="20100430060000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430060000 +1200" stop="20100430063000 +1200">
+		<title>NZI Business</title>
+		<desc>Setting the business agenda and leading your business day. The daily morning business programme is hosted by TVNZ broadcast journalist Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430063000 +1200" stop="20100430090000 +1200">
+		<title>Breakfast</title>
+		<desc>Paul Henry, Pippa Wetzell and the Breakfast team bring viewers the day's big news, interviews, weather and information, along with their unique sense of humour, to start the day.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430090000 +1200" stop="20100430120000 +1200">
+		<title>Good Morning</title>
+		<desc>Wendy Davie has tips on de-cluttering homes; jazz singer Tessa Quail performs; Susan Elijas has ideas on sprucing up dining tables; and Laura Faire is making healthy family meals.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430120000 +1200" stop="20100430123000 +1200">
+		<title>ONE News At Midday</title>
+		<desc>The latest news, weather, sport and market updates from ONE News to complete your morning.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430123000 +1200" stop="20100430133000 +1200">
+		<title>Emmerdale</title>
+		<desc>Kelly is stunned to learn she's pregnant; Jamie gets an interview for the postman's job; and Pearl realises Pollard doesn't fancy her.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430133000 +1200" stop="20100430140000 +1200">
+		<title>Airline</title>
+		<desc>Vinnie Jones is travelling from Luton to Inverness for a charity golf tournament; and an evening flight from Edinburgh lands in Luton minus most of the passengers' bags.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430140000 +1200" stop="20100430150000 +1200">
+		<title>Days Of Our Lives</title>
+		<desc>Follow the dramatic events of the Horton, Brady, and Reed families, their friends, neighbours and acquaintances.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430150000 +1200" stop="20100430160000 +1200">
+		<title>60 Minute Makeover</title>
+		<desc>Claire Sweeney presents the makeover show that puts her in a race against the clock to make homeowners' dreams a reality.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430160000 +1200" stop="20100430163000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430163000 +1200" stop="20100430170000 +1200">
+		<title>ONE News At 4.30</title>
+		<desc>The latest news, weather, traffic and market updates LIVE from ONE News - first at 4:30.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430170000 +1200" stop="20100430180000 +1200">
+		<title>Ellen</title>
+		<desc>Ellen DeGeneres brings her unique brand of hilarity to daytime talk, with guest appearances from Hilary Duff; and Alan Jackson.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430180000 +1200" stop="20100430190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430190000 +1200" stop="20100430193000 +1200">
+		<title>Close Up</title>
+		<desc>Mark Sainsbury presents New Zealand's most popular daily current affairs programme, featuring investigations and interviews with newsmakers. See tvnz.co.nz/closeup for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430193000 +1200" stop="20100430203000 +1200">
+		<title>Come Dine With Me Primetime</title>
+		<desc>A daily lifestyle show that sees five very different people compete to be named the ultimate dinner-party host.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430203000 +1200" stop="20100430213000 +1200">
+		<title>Making Over America With Trinny &amp; Susannah</title>
+		<desc>Trinny Woodall and Susannah Constantine visit the Sea Witch Inn in Rehoboth, Delaware, to deal with manager Natalie's frumpy wardrobe.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430213000 +1200" stop="20100430223000 +1200">
+		<title>Restaurant In Our Living Room</title>
+		<desc>Tim and his champagne-loving wife Andrea hope by squeezing in a massive 56 diners their simple set menu will triumph over business-minded Peter and Rachel&#8217;s 12-dish menu.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430223000 +1200" stop="20100430230000 +1200">
+		<title>ONE News Tonight</title>
+		<desc>Greg Boyed brings you the last word in news and Renee Wright summarises tomorrow's weather.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430230000 +1200" stop="20100430233000 +1200">
+		<title>Benidorm</title>
+		<desc>The holidaymakers head off to see a bullfight, and Chantelle and the Oracle go on a date.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100430233000 +1200" stop="20100501000500 +1200">
+		<title>Ruddy Hell, It's Harry And Paul</title>
+		<desc>A British sketch comedy with Harry Enfield and Paul Whitehouse.</desc>
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501000500 +1200" stop="20100501010500 +1200">
+		<title>And Proud</title>
+		<desc>A confession-based series that features extraordinary stories of bunny-boilers, gold-diggers, cradle-snatchers, love rats and sex addicts.</desc>
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501010500 +1200" stop="20100501013000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501060000 +1200" stop="20100501063000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501063000 +1200" stop="20100501070000 +1200">
+		<title>NZI Business Weekend</title>
+		<desc>Highlights of the week's business news with Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501070000 +1200" stop="20100501073000 +1200">
+		<title>Best Of Breakfast Weekend</title>
+		<desc>All the big interviews and stories covered by Paul Henry and Pippa Wetzell on Breakfast this week.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501073000 +1200" stop="20100501080000 +1200">
+		<title>Rural Delivery</title>
+		<desc>Rural Delivery visit AgResearch Grasslands; and head down south to a Central Otago commercial boer goat operation.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501080000 +1200" stop="20100501083000 +1200">
+		<title>The National Bank Country Calendar</title>
+		<desc>Roger Beattie wants to breed rare native birds for the nation&#8217;s dinner plates &#8211; all in the name of conservation.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501083000 +1200" stop="20100501090000 +1200">
+		<title>Location, Location, Location</title>
+		<desc>Judy has a dream to be mortgage free; another dream is lost forever; and Mark and Vanya follow their dream to Southland.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501090000 +1200" stop="20100501093500 +1200">
+		<title>Taste Takes Off</title>
+		<desc>Peta Mathias travels to Western Australia where she finds traditional dessert grapes to die for; fruit wine vinegars; and heads up the Margaret River by canoe.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501093500 +1200" stop="20100501121000 +1200">
+		<title>Come Dine With Me Omnibus</title>
+		<desc>A daily lifestyle show that sees five very different people compete to be named the ultimate dinner-party host.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501121000 +1200" stop="20100501131000 +1200">
+		<title>Build A New Life In The Country</title>
+		<desc>A factual series that follows British adventurers as they strive to pursue their dream lifestyle and home in their dream location.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501131000 +1200" stop="20100501141000 +1200">
+		<title>Heartbeat</title>
+		<desc>When a local industrial dispute threatens to get out of hand, Miller&#8217;s personal feelings almost get the better of him, and Rachel is called in to investigate.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501141000 +1200" stop="20100501153000 +1200">
+		<title>The Apprentice UK</title>
+		<desc>Locked in a series of gruelling interviews with three of Sir Alan Sugar's toughest colleagues, the four remaining candidates are forced to explain themselves.</desc>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501153000 +1200" stop="20100501172500 +1200">
+		<title>ONE Sport Netball: ANZ Championship</title>
+		<desc>Toni Street presents coverage from today&#8217;s seventh round game between the Canterbury Tactix and Southern Steel. With commentators Rikki Swannell and Jenny-May Coffin.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501172500 +1200" stop="20100501180000 +1200">
+		<title>Piha Rescue</title>
+		<desc>A surf coach is badly injured in the water; and two teenagers disappear in large surf in front of Lion Rock.</desc>
+		<category>tvshow</category>
+		<category>Documentary</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501180000 +1200" stop="20100501190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501190000 +1200" stop="20100501193000 +1200">
+		<title>The National Bank Country Calendar</title>
+		<desc>A Clevedon couple milk buffalos to make mozzarella cheese.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501193000 +1200" stop="20100501203000 +1200">
+		<title>Relocation Relocation</title>
+		<desc>Kirstie Allsopp and Phil Spencer take on a labour of love, helping Hertfordshire couple Helen and Paul find their dream home and their dream business - running a wedding venue.</desc>
+		<episode-num system="xmltv_ns">5.5.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501203000 +1200" stop="20100501230000 +1200">
+		<title>Live And Let Die</title>
+		<desc>The chief of a group of grips, often doubling for a construction co-ordinator and a backup for the camera crew, that also moves a dolly. Key grips work closely with the gaffer.</desc>
+		<credits>
+			<director>Guy Hamilton</director>
+			<actor role="James Bond">Roger Moore</actor>
+			<actor role="Kananga/Mr. Big">Yaphet Kotto</actor>
+			<actor role="Solitaire">Jane Seymour</actor>
+			<actor role="Sheriff J.W. Pepper">Clifton James</actor>
+			<actor role="Tee Hee">Julius Harris</actor>
+			<actor role="Baron Samedi">Geoffrey Holder</actor>
+			<actor role="Felix Leiter">David Hedison</actor>
+			<actor role="Rosie Carver">Gloria Hendry</actor>
+			<actor role="M">Bernard Lee</actor>
+			<actor role="Miss Moneypenny">Lois Maxwell</actor>
+			<actor role="Adam">Tommy Lane</actor>
+			<actor role="Quarrel Jr.">Roy Stewart</actor>
+		</credits>
+		<date>19730705</date>
+		<category>movie</category>
+		<category>Action</category>
+		<category>Thriller</category>
+		<length units="minutes">121</length>
+		<url>http://www.themoviedb.org/movie/253</url>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+		<star-rating>
+			<value>6.0/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100501230000 +1200" stop="20100502005000 +1200">
+		<title>Goodnight And Good Luck</title>
+		<desc>With a desire to enlighten the public, television pioneer Edward Murrow and his staff defy corporate pressures to examine the lies perpetrated by senator McCarthy during his communist &#8216;witch-hunts&#8217;. S</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502005000 +1200" stop="20100502011500 +1200">
+		<title>The Unauthorised History Of New Zealand</title>
+		<desc>Jeremy Wells outlines how New Zealanders' beliefs in Maori prophets, extra terrestrials and Uri Geller shaped the country.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502060000 +1200" stop="20100502063000 +1200">
+		<title>Mucking In</title>
+		<desc>Mucking In rewards outstanding Kiwis, who go above and beyond the norm in their community endeavours, with garden makeovers, and a vacation weekend.</desc>
+		<category>tvshow</category>
+		<category>House/garden</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502063000 +1200" stop="20100502063500 +1200">
+		<title>Our Heritage</title>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502063500 +1200" stop="20100502064500 +1200">
+		<title>Infamous Places</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502064500 +1200" stop="20100502073000 +1200">
+		<title>Sunday</title>
+		<desc>Cameron Bennett presents award-winning investigations into the stories that matter, from a team of the country's most experienced journalists. See tvnz.co.nz/sunday for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502073000 +1200" stop="20100502080000 +1200">
+		<title>Tagata Pasifika</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502080000 +1200" stop="20100502083000 +1200">
+		<title>Praise Be</title>
+		<desc>Chris Nichol presents a programme of hymns and worship songs from throughout New Zealand.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502083000 +1200" stop="20100502090000 +1200">
+		<title>Attitude</title>
+		<desc>Enter the private life of 34-year-old Samuel Gibson and his family. Gibson is less than a metre tall, but leads a rich and full life. How does he do it?</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502090000 +1200" stop="20100502100000 +1200">
+		<title>Q + A</title>
+		<desc>LIVE political affairs programme, hosted by political editor Guyon Espiner, Paul Holmes and political scientist Therese Arseneau, including interviews with news-making politicians and a panel debate.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502100000 +1200" stop="20100502110000 +1200">
+		<title>Waka Huia</title>
+		<desc>Waka Huia profiles 1970s boxing legend, Charlie Dunn.</desc>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502110000 +1200" stop="20100502113000 +1200">
+		<title>Marae</title>
+		<desc>A look at the current events and issues affecting Maori in New Zealand and around the world.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502113000 +1200" stop="20100502120000 +1200">
+		<title>Asia Downunder</title>
+		<desc>A woman's crusade for healthier school children; Southeast Asian art, music, and cuisine at the Southeast Asian Night Market; and Chinese-made New Zealand wine specially created for the Asian taste.</desc>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502120000 +1200" stop="20100502130000 +1200">
+		<title>Planet Science</title>
+		<desc>Scientists probe the theory that the whole planet was once one large snowball, and investigate how life could have survived and what caused it to end.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502130000 +1200" stop="20100502160000 +1200">
+		<title>ONE Sport: Skoda Game On</title>
+		<desc>Bernadine Oliver-Kerby presents an afternoon of sporting action and entertainment, this week including: Motocross, Football, Triathlon, Motorcycling and Motor Racing.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502160000 +1200" stop="20100502170000 +1200">
+		<title>Skoda Game On: Extra Time</title>
+		<desc>Bernadine Oliver-Kerby and Rod Cheeseman are joined by sporting guests to debate and analyse the week in an irreverent and entertaining finish to the weekend&#8217;s sports viewing.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502170000 +1200" stop="20100502180000 +1200">
+		<title>Extreme Fishing With Robson Green</title>
+		<desc>Robson Green begins his journey in Vancouver where the Fraser River flows right through the city, and just a few miles upstream, lurks North America&#8217;s biggest freshwater fish &#8211; the mighty sturgeon.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502180000 +1200" stop="20100502190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502190000 +1200" stop="20100502193000 +1200">
+		<title>Radar's Patch</title>
+		<desc>Christmas comes to the patch and with the help of his dad, Te Radar engineers his latest labour-saving device, while Santa blesses him with a guest-star role in the local primary school musical.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502193000 +1200" stop="20100502203000 +1200">
+		<title>Sunday</title>
+		<desc>Cameron Bennett presents award-winning investigations into the stories that matter, from a team of the country's most experienced journalists. See tvnz.co.nz/sunday for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502203000 +1200" stop="20100502212500 +1200">
+		<title>Criminal Minds</title>
+		<desc>The BAU investigate a group of suspects with a pack mentality who are randomly selecting their victims in the nation's capital and murdering them for the thrill of it.</desc>
+		<category>series</category>
+		<category>Crime/Drama</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502212500 +1200" stop="20100502222000 +1200">
+		<title>Damages</title>
+		<desc>As the arrest of a suspect clears Daniel Purcell in the murder of his wife, Tom and Ellen uncover evidence that could support Patty's lawsuit against UNR.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502222000 +1200" stop="20100502233000 +1200">
+		<title>The Pacific</title>
+		<desc>Physically and mentally debilitated after the four-month ordeal on Guadalcanal, Leckie, Basilone and thousands of their comrades land in Melbourne, where they're greeted by adoring crowds.</desc>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100502233000 +1200" stop="20100503003000 +1200">
+		<title>Pacific Solutions: From Afghanistan To Aotearoa</title>
+		<desc>The story of the Tampa boys, the Afghani refugees who were rescued off the coast of Australia by the MV Tampa, the new home they found in New Zealand, and the quest of their families to join them.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503003000 +1200" stop="20100503010000 +1200">
+		<title>Auction House</title>
+		<desc>A local series that goes behind-the-scenes in the world of auctions, art and antiques.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503060000 +1200" stop="20100503063000 +1200">
+		<title>NZI Business</title>
+		<desc>Setting the business agenda and leading your business day. The daily morning business programme is hosted by TVNZ broadcast journalist Corin Dann.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503063000 +1200" stop="20100503090000 +1200">
+		<title>Breakfast</title>
+		<desc>Paul Henry, Pippa Wetzell and the Breakfast team bring viewers the day's big news, interviews, weather and information, along with their unique sense of humour, to start the day.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503090000 +1200" stop="20100503120000 +1200">
+		<title>Good Morning</title>
+		<desc>It's Australian Fashion Week so watch out for hair, make-up and clothing tips; French chef Laurent Loudeac is in the kitchen; and Stacey Morrison reviews the new Craig David album.</desc>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503120000 +1200" stop="20100503123000 +1200">
+		<title>ONE News At Midday</title>
+		<desc>The latest news, weather, sport and market updates from ONE News to complete your morning.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503123000 +1200" stop="20100503133000 +1200">
+		<title>Emmerdale</title>
+		<desc>Kelly secretly books an appointment; Jasmine is in turmoil keeping David's secret; and Perdy panics when she loses her kitten.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503133000 +1200" stop="20100503140000 +1200">
+		<title>Airline</title>
+		<desc>The world is thrown into chaos as news comes in of the terrorist attacks in America on September 11.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503140000 +1200" stop="20100503150000 +1200">
+		<title>Days Of Our Lives</title>
+		<desc>Follow the dramatic events of the Horton, Brady, and Reed families, their friends, neighbours and acquaintances.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503150000 +1200" stop="20100503160000 +1200">
+		<title>60 Minute Makeover</title>
+		<desc>Claire Sweeney presents the makeover show that puts her in a race against the clock to make homeowners' dreams a reality.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503160000 +1200" stop="20100503163000 +1200">
+		<title>Te Karere</title>
+		<desc>International, national and local news sport and weather from a Maori perspective.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503163000 +1200" stop="20100503170000 +1200">
+		<title>ONE News At 4.30</title>
+		<desc>The latest news, weather, traffic and market updates LIVE from ONE News - first at 4:30.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503170000 +1200" stop="20100503180000 +1200">
+		<title>Ellen</title>
+		<desc>Emmy award-winning comedian and writer, best-selling author, actor and televison pioneer, Ellen DeGeneres, brings her unique brand of hilarity to daytime talk.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503180000 +1200" stop="20100503190000 +1200">
+		<title>ONE News At 6pm</title>
+		<desc>Simon Dallow, Wendy Petrie and the nation's leading team of journalists bring viewers the latest news and sport, plus the most comprehensive weather report.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503190000 +1200" stop="20100503193000 +1200">
+		<title>Close Up</title>
+		<desc>Mark Sainsbury presents New Zealand's most popular daily current affairs programme, featuring investigations and interviews with newsmakers. See tvnz.co.nz/closeup for details of tonight's episode.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503193000 +1200" stop="20100503200000 +1200">
+		<title>Coastwatch</title>
+		<desc>An action-packed reality series following the men and women who patrol, protect and preserve New Zealand&#8217;s waterways and fisheries.</desc>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503200000 +1200" stop="20100503203000 +1200">
+		<title>Medical Emergency</title>
+		<desc>A 30-year-old motorcyclist arrives at The Alfred with a broken leg; and a 20-year-old athlete is admitted with suspected heart failure.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503203000 +1200" stop="20100503213500 +1200">
+		<title>The Pacific</title>
+		<desc>Finally enlisted as a Marine, Eugene Sledge trains for combat at Camp Elliott; and the 1st Marine Division land at Cape Gloucester on the Japanese-held island of New Britain.</desc>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503213500 +1200" stop="20100503223000 +1200">
+		<title>Cops With Cameras</title>
+		<desc>A robbery squad team take a victim of street robbery on a drive; police teams in Plymouth and South Wales go on early morning drug raids; and police try to catch a man driving without a valid licence.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503223000 +1200" stop="20100503230000 +1200">
+		<title>ONE News Tonight</title>
+		<desc>Greg Boyed brings you the last word in news and Renee Wright summarises tomorrow's weather.</desc>
+		<category>tvshow</category>
+		<category>News</category>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv1.freeviewnz.tv" start="20100503230000 +1200" stop="20100504000500 +1200">
+		<title>The Prisoner</title>
+		<desc>Six's memories from his 'real life' start to become clearer; the treacherous relationship between Two and Six becomes even more strained; and 11-12 seeks the truth about his mother.</desc>
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426000000 +1200" stop="20100426005000 +1200">
+		<title>Blade: The Series</title>
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426005000 +1200" stop="20100426022500 +1200">
+		<title>Boogeyman</title>
+		<desc>Every culture has one - the horrible monster fueling young children's nightmares. But for Tim, the Boogeyman still lives in his memories as a creature that devoured his father 16 years earlier. Is the Boogeyman real? Or did Tim make him up to explain why his father abandoned his family?</desc>
+		<credits>
+			<director>Stephen T. Kay</director>
+			<actor role="Kate">Emily Deschanel</actor>
+			<actor role="Tim">Barry Watson</actor>
+			<actor role="Shredder Tibby Weub">Skye McCole Bartusiak</actor>
+			<actor role="Mary Jensen">Lucy Lawless</actor>
+			<actor role="Jessica">Tory Mussett</actor>
+		</credits>
+		<date>20050101</date>
+		<category>movie</category>
+		<category>Drama</category>
+		<category>Thriller</category>
+		<length units="minutes">89</length>
+		<url>http://www.themoviedb.org/movie/8968</url>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+		<star-rating>
+			<value>6.66667/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426022500 +1200" stop="20100426030000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426030000 +1200" stop="20100426035000 +1200">
+		<title>One Night Only</title>
+		<desc>Tonight, it's land versus sea when a group of hardy musterers from Bendigo compete against a team of bay watchers from the Kapiti Coast in this week's sing-off.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426035000 +1200" stop="20100426044000 +1200">
+		<title>Brainiac: Science Abuse</title>
+		<desc>Danielle Lloyd tries to escape caravan carnage, and can rockets get you out of a traffic jam?</desc>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426044000 +1200" stop="20100426050500 +1200">
+		<title>It Is Written</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426050500 +1200" stop="20100426053000 +1200">
+		<title>Emmerdale</title>
+		<desc>Laurel&#8217;s concerned Emily can&#8217;t keep away from baby Sarah, and tells her she needs to keep her distance.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426053000 +1200" stop="20100426060000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426060000 +1200" stop="20100426063000 +1200">
+		<title>Creflo A. Dollar Jr</title>
+		<category>tvshow</category>
+		<category>Religious</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426063000 +1200" stop="20100426070000 +1200">
+		<title>Hi-5</title>
+		<category>tvshow</category>
+		<category>Childrens - Educational</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426070000 +1200" stop="20100426072500 +1200">
+		<title>Pinky And Perky</title>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426072500 +1200" stop="20100426075000 +1200">
+		<title>Yin Yang Yo</title>
+		<desc>Yin and Yang may look like adorable little rabbits, but don&#8217;t be fooled - both are students of a mystical form of martial arts called Woo Foo in this hilarious animated comedy series.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426075000 +1200" stop="20100426081500 +1200">
+		<title>Ben 10: Alien Force</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426081500 +1200" stop="20100426084000 +1200">
+		<title>The Go Show</title>
+		<category>tvshow</category>
+		<category>Childrens - Educational</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426084000 +1200" stop="20100426085500 +1200">
+		<title>Milly, Molly</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426085500 +1200" stop="20100426090500 +1200">
+		<title>Roary The Racing Car</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426090500 +1200" stop="20100426093000 +1200">
+		<title>Korero Mai - Speak To Me</title>
+		<desc>Follow the lives and loves of eight young Maori in this drama series, which will also improve your Te Reo Maori skills.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426093000 +1200" stop="20100426110000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426110000 +1200" stop="20100426120000 +1200">
+		<title>Tyra</title>
+		<desc>Tyra pays tribute to black models.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426120000 +1200" stop="20100426123000 +1200">
+		<title>Shortland Street</title>
+		<desc>Yvonne is given an offer she can&#8217;t refuse, Tania senses a snake in the grass, and Isaac gets too big for his boots.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426123000 +1200" stop="20100426133000 +1200">
+		<title>Jeremy Kyle</title>
+		<desc>Who has my fiance been with until 5 o'clock in the morning?</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426133000 +1200" stop="20100426143000 +1200">
+		<title>McLeod's Daughters</title>
+		<desc>Old wounds are re-opened when Stevie's estranged mother comes to Drover's and Kate returns from Africa following the demise of her relationship with Dave.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<episode-num system="xmltv_ns">6.14.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426143000 +1200" stop="20100426150000 +1200">
+		<title>Neighbours</title>
+		<desc>Donna receives a letter from one of the men she believes could be her father, and Zeke is dismayed when Susan decides to sign up to some classes at Eden Hills University.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426150000 +1200" stop="20100426152500 +1200">
+		<title>Little Einsteins</title>
+		<desc>Four music-loving friends travel the globe in their trusty rocket ship, experiencing adventures along the way.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426152500 +1200" stop="20100426153000 +1200">
+		<title>Puzzle Inc</title>
+		<desc>Colourful and fun shapes skip, dance, and tumble to introduce young viewers to the basics of shape, colour, maths, physics and creativity.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426153000 +1200" stop="20100426160000 +1200">
+		<title>Studio 2 LIVE</title>
+		<desc>Aunt Matilda is back with her own brand of mayhem, and Studio 2 LIVE&#8217;s new animated series is premiered, along with everyone's favourite, Spongebob Squarepants.</desc>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426160000 +1200" stop="20100426163000 +1200">
+		<title>Spongebob Squarepants</title>
+		<desc>A nutty, nautical cartoon about SpongeBob Squarepants, a happy-go-lucky sea sponge who lives in a pineapple under the sea.</desc>
+		<category>tvshow</category>
+		<category>Childrens</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426163000 +1200" stop="20100426170000 +1200">
+		<title>The Erin Simpson Show</title>
+		<desc>Jay Williams is in the studio, a passionate teen vegetarian is profiled, Will and Dan are castaway, there's a chance to win an Adidas goodie bag, and there's motor mania fun in the studio!</desc>
+		<category>tvshow</category>
+		<category>Childrens</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426170000 +1200" stop="20100426173000 +1200">
+		<title>The Nanny</title>
+		<desc>Fran is hired as a regular on The Rosie O'Donnell Show.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426173000 +1200" stop="20100426180000 +1200">
+		<title>Friends</title>
+		<desc>Ross reveals a fantasy to Rachel involving Princess Leia, Monica suffers from insomnia after her break-up with Richard, and Chandler, back together with Janice, wants Joey to bond with her.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426180000 +1200" stop="20100426183000 +1200">
+		<title>Neighbours</title>
+		<desc>Donna goes undercover to get the truth about her dad, and Zeke's 'bloke's club' complicates things for Kate and Declan's relationship.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426183000 +1200" stop="20100426190000 +1200">
+		<title>My Wife And Kids</title>
+		<desc>With Janet still away, the children are fed up with Michael and dream of the perfect dad.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<episode-num system="xmltv_ns">1.3.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426190000 +1200" stop="20100426193000 +1200">
+		<title>Shortland Street</title>
+		<desc>Tracey struggles to reach out to Scotty, Nicole makes contact with Maia, and Brooke plays fairy godmother.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426193000 +1200" stop="20100426203000 +1200">
+		<title>Supernanny</title>
+		<desc>Jo tries to close a communications gap between a deaf couple and their four hearing children.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426203000 +1200" stop="20100426213000 +1200">
+		<title>Desperate Housewives</title>
+		<sub-title>Boom Crunch</sub-title>
+		<desc>Gabrielle and Lynette's friendship is on the brink of collapse, whereas Bree and Orson come to an agreement about their marriage. Meanwhile, Susan hatches a plan to help an irrational Katherine, and Danny's vital mistake might cost Angie her freedom. In the meantime, Christmas cheer is curtailed when disaster strikes, as a plane crashes down on Wisteria Lane, putting lives in peril.</desc>
+		<date>20091206</date>
+		<category>series</category>
+		<category>Drama</category>
+		<episode-num system="xmltv_ns">5.9.0</episode-num>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+		<star-rating>
+			<value>7.8/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426213000 +1200" stop="20100426223000 +1200">
+		<title>Brothers And Sisters</title>
+		<sub-title>Nearlyweds</sub-title>
+		<desc>Justin and Rebecca's beachside wedding has the Walker family stunned. Tommy risks everything to have his daughter beside him.</desc>
+		<date>20091206</date>
+		<episode-num system="xmltv_ns">3.9.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+		<star-rating>
+			<value>9.0/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426223000 +1200" stop="20100426233000 +1200">
+		<title>Nip/Tuck</title>
+		<sub-title>Wesley Clovis</sub-title>
+		<desc>Sean experiences an ethical and moral dilemma when McNamara/Troy is requested to perform a surgical procedure on a prison inmate. Kimber questions how far she will go to keep Christian when they receive life-changing news.</desc>
+		<date>20091216</date>
+		<episode-num system="xmltv_ns">5.9.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+		<star-rating>
+			<value>7.7/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100426233000 +1200" stop="20100427000000 +1200">
+		<title>Samantha Who?</title>
+		<desc>Samantha finds out about an endangered butterfly habitat and wants to stop her boss, and the firm's construction project, who will kill them.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427000000 +1200" stop="20100427003000 +1200">
+		<title>Ellen</title>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427003000 +1200" stop="20100427013000 +1200">
+		<title>Ghost Whisperer</title>
+		<category>series</category>
+		<category>Fantasy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427013000 +1200" stop="20100427023000 +1200">
+		<title>Infomercial</title>
+		<category>tvshow</category>
+		<category>Shopping</category>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427023000 +1200" stop="20100427032000 +1200">
+		<title>One Night Only</title>
+		<desc>Teams of ordinary Kiwis from all walks of life are given their moment in the spotlight, as they compete in a sing-off for a cash prize. Hosted by Jordan Vandermade and Clinton Randell.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427032000 +1200" stop="20100427041500 +1200">
+		<title>Brainiac: Science Abuse</title>
+		<desc>Today, the mad scientists discover if rockets can power a pram and what the best alternative painkiller is.</desc>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427041500 +1200" stop="20100427044000 +1200">
+		<title>To Catch A Thief</title>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427044000 +1200" stop="20100427050500 +1200">
+		<title>Remarkable Vets</title>
+		<category>tvshow</category>
+		<category>Reality/Animals</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427050500 +1200" stop="20100427053000 +1200">
+		<title>Emmerdale</title>
+		<desc>Emily's heartbreak leads her to contemplate suicide; Bob and Jamie try to calm Viv down; and Pollard is unnerved when he hears from his solicitor.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427053000 +1200" stop="20100427060000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427060000 +1200" stop="20100427063000 +1200">
+		<title>Creflo A. Dollar Jr</title>
+		<category>tvshow</category>
+		<category>Religious</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427063000 +1200" stop="20100427070000 +1200">
+		<title>Hi-5</title>
+		<category>tvshow</category>
+		<category>Childrens - Educational</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427070000 +1200" stop="20100427072500 +1200">
+		<title>Pinky And Perky</title>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427072500 +1200" stop="20100427075000 +1200">
+		<title>Yin Yang Yo</title>
+		<desc>Yin and Yang may look like adorable little rabbits, but don&#8217;t be fooled - both are students of a mystical form of martial arts called Woo Foo in this hilarious animated comedy series.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427075000 +1200" stop="20100427081500 +1200">
+		<title>Ben 10: Alien Force</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427081500 +1200" stop="20100427084000 +1200">
+		<title>The Go Show</title>
+		<category>tvshow</category>
+		<category>Childrens - Educational</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427084000 +1200" stop="20100427085500 +1200">
+		<title>Milly, Molly</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427085500 +1200" stop="20100427090500 +1200">
+		<title>Roary The Racing Car</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427090500 +1200" stop="20100427093000 +1200">
+		<title>Korero Mai - Speak To Me</title>
+		<desc>Follow the lives and loves of eight young Maori in this drama series, which will also improve your Te Reo Maori skills.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427093000 +1200" stop="20100427110000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427110000 +1200" stop="20100427120000 +1200">
+		<title>Tyra</title>
+		<desc>Tyra meets women whose best friends poach their men.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427120000 +1200" stop="20100427123000 +1200">
+		<title>Shortland Street</title>
+		<desc>Chris takes Isaac to school, Sophie rises above her station, and Libby makes her own declaration of independence.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427123000 +1200" stop="20100427133000 +1200">
+		<title>Jeremy Kyle</title>
+		<desc>Husband, choose - me or your mum.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427133000 +1200" stop="20100427143000 +1200">
+		<title>McLeod's Daughters</title>
+		<desc>On the eve of his marriage to Stevie, Alex finds himself in jail. Marcus calls their half-sister Ashleigh to help.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<episode-num system="xmltv_ns">6.15.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427143000 +1200" stop="20100427150000 +1200">
+		<title>Neighbours</title>
+		<desc>Donna goes undercover to get the truth about her dad, and Zeke's 'bloke's club' complicates things for Kate and Declan's relationship.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427150000 +1200" stop="20100427152500 +1200">
+		<title>Little Einsteins</title>
+		<desc>Four music-loving friends travel the globe in their trusty rocket ship, experiencing adventures along the way.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427152500 +1200" stop="20100427153000 +1200">
+		<title>Puzzle Inc</title>
+		<desc>Colourful and fun shapes skip, dance, and tumble to introduce young viewers to the basics of shape, colour, maths, physics and creativity.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427153000 +1200" stop="20100427160000 +1200">
+		<title>Studio 2 LIVE</title>
+		<desc>The team check out all the action at the NZ Hip Hop championship, there's another episode of Spongebob Squarepants, and some seriously fly senior citizens rapping.</desc>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427160000 +1200" stop="20100427163000 +1200">
+		<title>Spongebob Squarepants</title>
+		<desc>A nutty, nautical cartoon about SpongeBob Squarepants, a happy-go-lucky sea sponge who lives in a pineapple under the sea.</desc>
+		<category>tvshow</category>
+		<category>Childrens</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427163000 +1200" stop="20100427170000 +1200">
+		<title>The Erin Simpson Show</title>
+		<desc>Kim checks out the Pacific institute of Performing Arts, Paul Henare from the Breakers drops in to shoot some hoops, and Shannon and Mathias perform Firefly in the studio.</desc>
+		<category>tvshow</category>
+		<category>Childrens</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427170000 +1200" stop="20100427173000 +1200">
+		<title>The Nanny</title>
+		<desc>Fran's Aunt Freida arrives at the Sheffield's after being evicted.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427173000 +1200" stop="20100427180000 +1200">
+		<title>Friends</title>
+		<desc>Ross is in a hurry to get everyone dressed for an important banquet at the museum, but no one is co-operating.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427180000 +1200" stop="20100427183000 +1200">
+		<title>Neighbours</title>
+		<desc>Desperate to convince Paul he&#8217;s worthy of staying, Andrew puts his redemption plan into action, and Donna's hopes about her father are shattered.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427183000 +1200" stop="20100427190000 +1200">
+		<title>My Wife And Kids</title>
+		<desc>With their mum still away, the kids start behaving increasingly badly, prompting Michael to turn the house into a dictatorship.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<episode-num system="xmltv_ns">1.4.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427190000 +1200" stop="20100427193000 +1200">
+		<title>Shortland Street</title>
+		<desc>Maxwell can&#8217;t refuse an old friend, and Maia uncovers Nicole&#8217;s darkest secret.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427193000 +1200" stop="20100427203000 +1200">
+		<title>The Apprentice New Zealand</title>
+		<desc>With the competition down to the final four, the teams are tested on their communication skills by teaching the residents of a retirement village how to use some of the latest modern technology.</desc>
+		<subtitles type="teletext" />
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427203000 +1200" stop="20100427213000 +1200">
+		<title>Grey's Anatomy</title>
+		<sub-title>I Like You So Much Better When You're Naked</sub-title>
+		<desc>After learning of Richard's drinking problem, Derek confronts him for the sake of his friend and the hospital, Izzie returns, hoping to reconcile with Alex, and tensions run high between Teddy, Cristina and Owen in the aftermath of Cristina's startling confession.</desc>
+		<date>20100121</date>
+		<category>series</category>
+		<category>Drama</category>
+		<episode-num system="xmltv_ns">5.11.0</episode-num>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+		<star-rating>
+			<value>6.7/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427213000 +1200" stop="20100427223000 +1200">
+		<title>Private Practice</title>
+		<desc>Sam and Naomi are stunned by Maya&#8217;s shocking announcement, and Naomi&#8217;s irrational response leaves Sam to pick up the pieces, as Pete challenges Fife on a patient with a cutting edge bionic arm.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427223000 +1200" stop="20100427233000 +1200">
+		<title>Lost: The Final Season</title>
+		<desc>Desmond wakes up to discover he's back on the island. Guest starring Dominic Monaghan as Charlie and Jeremy Davies as Daniel Faraday.</desc>
+		<video>
+			<present>yes</present>
+			<aspect>16:9</aspect>
+			<quality>HDTV</quality>
+		</video>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100427233000 +1200" stop="20100428003000 +1200">
+		<title>Mad TV</title>
+		<desc>Featuring guest star Audrina Patridge from The Hills.</desc>
+		<category>tvshow</category>
+		<category>Comedy</category>
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428003000 +1200" stop="20100428013000 +1200">
+		<title>Don't Tell The Bride</title>
+		<rating system="Freeview">
+			<value>AO</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428013000 +1200" stop="20100428023000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428023000 +1200" stop="20100428032500 +1200">
+		<title>One Night Only</title>
+		<desc>Tonight, it&#8217;s the brute strength and tight singlets of the Taranaki Sawmillers against the refined beauty of the Bluff Pearls. Who will win over the studio audience and take the glory?</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428032500 +1200" stop="20100428041500 +1200">
+		<title>Brainiac: Science Abuse</title>
+		<desc>Season Finale. Vic Reeves and Jon Tickle find out how hard an engine is, and attempt to make a Tsunami.</desc>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428041500 +1200" stop="20100428044000 +1200">
+		<title>To Catch A Thief</title>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428044000 +1200" stop="20100428050500 +1200">
+		<title>Remarkable Vets</title>
+		<category>tvshow</category>
+		<category>Reality/Animals</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428050500 +1200" stop="20100428053000 +1200">
+		<title>Emmerdale</title>
+		<desc>Victoria and her friends hurl eggs at the shop window; Sam takes Emily to the Dingles; and Val offers Paul a huge wage to spy on Steph.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428053000 +1200" stop="20100428060000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428060000 +1200" stop="20100428063000 +1200">
+		<title>Creflo A. Dollar Jr</title>
+		<category>tvshow</category>
+		<category>Religious</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428063000 +1200" stop="20100428070000 +1200">
+		<title>Hi-5</title>
+		<category>tvshow</category>
+		<category>Childrens - Educational</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428070000 +1200" stop="20100428072500 +1200">
+		<title>Pinky And Perky</title>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428072500 +1200" stop="20100428075000 +1200">
+		<title>Yin Yang Yo</title>
+		<desc>Yin and Yang may look like adorable little rabbits, but don&#8217;t be fooled - both are students of a mystical form of martial arts called Woo Foo, in this hilarious animated comedy series.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428075000 +1200" stop="20100428081500 +1200">
+		<title>Ben 10: Alien Force</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428081500 +1200" stop="20100428084000 +1200">
+		<title>The Go Show</title>
+		<category>tvshow</category>
+		<category>Childrens - Educational</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428084000 +1200" stop="20100428085500 +1200">
+		<title>Milly, Molly</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428085500 +1200" stop="20100428090500 +1200">
+		<title>Roary The Racing Car</title>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428090500 +1200" stop="20100428093000 +1200">
+		<title>Korero Mai - Speak To Me</title>
+		<desc>Follow the lives and loves of eight young Maori in this drama series, which will also improve your Te Reo Maori skills.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428093000 +1200" stop="20100428110000 +1200">
+		<title>Infomercial 2003</title>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428110000 +1200" stop="20100428120000 +1200">
+		<title>Tyra</title>
+		<desc>YouTube made me famous.</desc>
+		<category>tvshow</category>
+		<category>Reality</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428120000 +1200" stop="20100428123000 +1200">
+		<title>Shortland Street</title>
+		<desc>Tania suspects there is more to her new romance than she knows, and Kieran&#8217;s long standing deception is uncovered by Sophie.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428123000 +1200" stop="20100428133000 +1200">
+		<title>Jeremy Kyle</title>
+		<desc>You destroyed our childhood - today is your final chance to be our mum.</desc>
+		<category>tvshow</category>
+		<category>Talk Show</category>
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428133000 +1200" stop="20100428143000 +1200">
+		<title>McLeod's Daughters</title>
+		<desc>Grace meets a mystery man at the sale yards, but will she fall for his charms? Ashleigh is determined to destroy Killarney and ruin Marcus' reputation.</desc>
+		<category>series</category>
+		<category>Drama</category>
+		<episode-num system="xmltv_ns">6.16.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428143000 +1200" stop="20100428150000 +1200">
+		<title>Neighbours</title>
+		<desc>Desperate to convince Paul he&#8217;s worthy of staying, Andrew puts his redemption plan into action, and Donna's hopes about her father are shattered.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428150000 +1200" stop="20100428152500 +1200">
+		<title>Little Einsteins</title>
+		<desc>Four music-loving friends travel the globe in their trusty rocket ship, experiencing adventures along the way.</desc>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428152500 +1200" stop="20100428153000 +1200">
+		<title>Puzzle Inc</title>
+		<desc>Colourful and fun shapes skip, dance, and tumble to introduce young viewers to the basics of shape, colour, maths, physics and creativity.</desc>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428153000 +1200" stop="20100428160000 +1200">
+		<title>Studio 2 LIVE</title>
+		<desc>There's a chance for a viewer to win a PSP, Jordan gives someone the chance to get their face on TV, and there's another Spongebob Sqaurepants episode.</desc>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428160000 +1200" stop="20100428163000 +1200">
+		<title>Spongebob Squarepants</title>
+		<desc>A nutty, nautical cartoon about SpongeBob Squarepants, a happy-go-lucky sea sponge who lives in a pineapple under the sea.</desc>
+		<category>tvshow</category>
+		<category>Childrens</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428163000 +1200" stop="20100428170000 +1200">
+		<title>The Erin Simpson Show</title>
+		<desc>Erin meets Tom Cameron from Under The Mountain, Chang catches up with Go Girls beauty Anna Hutchison, there's a chance to win a copy of Final Fantasy 8, and Erin rocks out to Paramore.</desc>
+		<category>tvshow</category>
+		<category>Childrens</category>
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428170000 +1200" stop="20100428173000 +1200">
+		<title>The Nanny</title>
+		<desc>Fran arranges a reunion between Maxwell and his estranged father, James.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428173000 +1200" stop="20100428180000 +1200">
+		<title>Friends</title>
+		<desc>Phoebe dates a man who thinks he's stalking her twin sister, and Monica uses her free time after breaking up with Richard to make jam while considering having a baby alone.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428180000 +1200" stop="20100428183000 +1200">
+		<title>Neighbours</title>
+		<desc>Steph is forced to reveal her pregnancy, and Andrew hatches a devious plan to tear Paul and Rebecca apart.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428183000 +1200" stop="20100428190000 +1200">
+		<title>My Wife And Kids</title>
+		<desc>Janet finally returns from her mother&#8217;s house, and she&#8217;s brought a few extra pounds along with her.</desc>
+		<category>series</category>
+		<category>Comedy</category>
+		<episode-num system="xmltv_ns">1.5.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>G</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428190000 +1200" stop="20100428193000 +1200">
+		<title>Shortland Street</title>
+		<desc>Maia feels trapped in the closet, Hunter sees Frankie&#8217;s true colours, and Kieran and Sophie have a turf war.</desc>
+		<category>tvshow</category>
+		<category>Soaps</category>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428193000 +1200" stop="20100428200000 +1200">
+		<title>Two And A Half Men</title>
+		<sub-title>Fart Jokes, Pie and Celeste</sub-title>
+		<desc>Jake hopes to win back Celeste by writing her love songs. Alan and Herb hope to keep Judith from finding out they've become friends.</desc>
+		<date>20100111</date>
+		<category>series</category>
+		<category>Comedy</category>
+		<episode-num system="xmltv_ns">6.11.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+		<star-rating>
+			<value>7.9/10</value>
+		</star-rating>
+	</programme>
+	<programme channel="tv2.freeviewnz.tv" start="20100428200000 +1200" stop="20100428203000 +1200">
+		<title>The Big Bang Theory</title>
+		<sub-title>The Bozeman Reaction</sub-title>
+		<desc>When their apartment is robbed, Leonard and Sheldon turn to their friends to create a state-of-the-art security system.</desc>
+		<date>20100118</date>
+		<category>series</category>
+		<category>Comedy</category>
+		<episode-num system="xmltv_ns">2.12.0</episode-num>
+		<subtitles type="teletext" />
+		<rating system="Freeview">
+			<value>PGR</value>
+		</rating>
+		<star-rating>
+			<value>7.6/10</value>
+		</star-rating>
+	</programme>
+	</tv>

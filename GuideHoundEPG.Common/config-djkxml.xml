@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<epgDownloaderConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" providerName="XMLTV">
+  <source inputSource="L" externalCommand="c:\epg\updateepg.bat" xmlTvFile="C:\epg\djkxml\TVGuide.xml" xmlTvUrl="http://download.xmltv.co.nz/?archive=none&amp;icons=large&amp;links=local&amp;provider=freeview&amp;channels=FV-basefm,FV-tv3plus1,FV-tvcentral,FV-tvnzsportextra,TC-GEOR,TC-GOTV,TC-RNZ1,TC-RNZ2,TC-TV1A,TC-TV2A,TC-TV4,TC-WSK3,YH-1-59,YH-1-60,YH-2-57" />
+  <output outputFile="tvguide.mxf" outputFolder="c:\epgoutput" />
+  <channels>
+    <channel id="1" xmlTvId="01" name="TV1" logoUrl="C:\epg\Logos\rounded\TV ONE.png" />
+    <channel id="2" xmlTvId="02" name="TV2" logoUrl="C:\epg\Logos\rounded\TV2.png" />
+    <channel id="3" xmlTvId="03" name="TV3" logoUrl="C:\epg\Logos\rounded\TV3.png" />
+    <channel id="4" xmlTvId="04" name="TV3plus1" logoUrl="C:\epg\Logos\rounded\tv3plus1.png" />
+    <channel id="5" xmlTvId="64" name="C4" logoUrl="C:\epg\Logos\rounded\C4.png" />
+    <channel id="6" xmlTvId="36" name="TVNZ6" logoUrl="C:\epg\Logos\rounded\TVNZ 6.png" />
+    <channel id="7" xmlTvId="37" name="TVNZ7" logoUrl="C:\epg\Logos\rounded\TVNZ 7.png" />
+  </channels>
+  <categoryDetection keywordDetectionEnabled="true">
+    <keywords>
+      <!--Series-->
+      <keyword word="shortland street" category="Series" />
+      <keyword word="the graham norton show" category="Series" />
+      <keyword word="americon idol" category="Series" />
+      <keyword word="australian idol" category="Series" />
+
+      <!--Movies-->
+      <keyword word="movie" category="Movie" />
+      <keyword word="blockbuster" category="Movie" />
+      <keyword word="theatre" category="Movie" />
+
+      <!--News-->
+      <keyword word="news" category="News" />
+      <keyword word="business" category="News" />
+
+      <!--Sports-->
+      <keyword word="sport" category="Sports" />
+      <keyword word="golf" category="Sports" />
+      <keyword word="v8" category="Sports" />
+      <keyword word="supercars" category="Sports" />
+      <keyword word="rugby" category="Sports" />
+      <keyword word="cricket" category="Sports" />
+      <keyword word="netball" category="Sports" />
+      <keyword word="icc" category="Sports" />
+      <keyword word="sportswatch" category="Sports" />
+
+      <!--Reality-->
+      <keyword word="survivor" category="Reality" />
+      <keyword word="shipwrecked" category="Reality" />
+
+      <!--Ignore-->
+      <keyword word="infomercials" category="None" />
+      <keyword word="infomercial" category="None" />
+      <keyword word="bbc world" category="None" />
+      <keyword word="closedown" category="None" />
+      <keyword word="omnibus" category="None" />
+      <keyword word="sunrise" category="None" />
+      <keyword word="breakfast" category="None" />
+      <keyword word="ruddy hell" category="None" />
+      <keyword word="good morning" category="None" />
+
+      <keyword word="c90" category="None" />
+      <keyword word="what now?" category="None" />
+      <keyword word="nz top 40" category="None" />
+      <keyword word="u choose" category="None" />
+      <keyword word="spoon" category="None" />
+      <keyword word="80's movies" category="None" />
+      <keyword word="vodafone" category="None" />
+      <keyword word="blender" category="None" />
+      <keyword word="insomnia" category="None" />
+
+
+
+    </keywords>
+  </categoryDetection>
+  <metadataOptions tvSeriesMetadataServiceEnabled="true" movieMetadataServiceEnabled="false" />
+</epgDownloaderConfig>

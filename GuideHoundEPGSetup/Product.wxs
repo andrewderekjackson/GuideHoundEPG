@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  
+  <!--
+  To Release a new version:
+  
+  1. Update the Product Id to a new GUID
+  2. Increment the version number of Product.Version and UpgradeVersion.Maximim
+  -->
+  
+  <Product Id="E29F7E3B-A5E9-48bc-BB8F-0BD336CAD5BC" Name="GuideHound EPG" Language="1033" Version="1.0.5.0" Manufacturer="GuideHound" UpgradeCode="03678BBF-22D0-471f-9C94-A3156C8A2292">
+    <Package InstallerVersion="301" Compressed="yes" />
+    <Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+    <Property Id="ALLUSERS" Value="1" />
+    
+    
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLLOCATION" Name="GuideHound EPG">
+          <Component Id="CONFIG_DEFAULT.XML" DiskId="1" Guid="7E130966-ECD4-417A-BD7D-4B3CD06A5948">
+            <File Id="CONFIG_DEFAULT.XML" Name="config_default.xml" Source="..\bin\config_default.xml" />
+          </Component>
+          <Component Id="CORE.LICENSING.DLL" DiskId="1" Guid="C0153D8C-D706-4DEC-9188-FC0BA4322778">
+            <File Id="CORE.LICENSING.DLL" Name="Core.Licensing.dll" Source="..\bin\Core.Licensing.dll" />
+          </Component>
+          <Component Id="CORE.LICENSING.PRIVATE.DLL" DiskId="1" Guid="3E866DFC-F381-41E4-B9B4-013109D890EE">
+            <File Id="CORE.LICENSING.PRIVATE.DLL" Name="Core.Licensing.Private.dll" Source="..\bin\Core.Licensing.Private.dll" />
+          </Component>
+          <Component Id="CORE.LOGGING.DLL" DiskId="1" Guid="077C5C40-7545-45C8-82AA-3D3CC1302BC4">
+            <File Id="CORE.LOGGING.DLL" Name="Core.Logging.dll" Source="..\bin\Core.Logging.dll" />
+          </Component>
+          <Component Id="CORE.UI.CONTROLS.DLL" DiskId="1" Guid="86A3BD1D-8626-4EA1-A317-6100D9E7C4A5">
+            <File Id="CORE.UI.CONTROLS.DLL" Name="Core.UI.Controls.dll" Source="..\bin\Core.UI.Controls.dll" />
+          </Component>
+          <Component Id="CORE.UI.DLL" DiskId="1" Guid="7695DD4A-437A-463E-B1EB-FEE8E0D4C95B">
+            <File Id="CORE.UI.DLL" Name="Core.UI.dll" Source="..\bin\Core.UI.dll" />
+          </Component>
+          <Component Id="GALASOFT.MVVMLIGHT.EXTRAS.WPF4.DLL" DiskId="1" Guid="F4DAE1DC-B846-4FC3-A2F1-9DCF72E7721C">
+            <File Id="GALASOFT.MVVMLIGHT.EXTRAS.WPF4.DLL" Name="GalaSoft.MvvmLight.Extras.WPF4.dll" Source="..\bin\GalaSoft.MvvmLight.Extras.WPF4.dll" />
+          </Component>
+          <Component Id="GALASOFT.MVVMLIGHT.WPF4.DLL" DiskId="1" Guid="0F87DE54-A14A-4C94-84C0-9BE96BCFF419">
+            <File Id="GALASOFT.MVVMLIGHT.WPF4.DLL" Name="GalaSoft.MvvmLight.WPF4.dll" Source="..\bin\GalaSoft.MvvmLight.WPF4.dll" />
+          </Component>
+          <Component Id="GUIDEHOUNDEPG.COMMON.DLL" DiskId="1" Guid="B2F2FE91-7C53-4B35-A905-30C174B1E08A">
+            <File Id="GUIDEHOUNDEPG.COMMON.DLL" Name="GuideHoundEPG.Common.dll" Source="..\bin\GuideHoundEPG.Common.dll" />
+          </Component>
+          <Component Id="GUIDEHOUNDEPG.EXE" DiskId="1" Guid="27BD2561-2B9E-4A17-BF11-A849557A8B53">
+            <File Id="GUIDEHOUNDEPG.EXE" Name="GuideHoundEPG.exe" Source="..\bin\GuideHoundEPG.exe" />
+          </Component>
+          <Component Id="GUIDEHOUNDEPG.EXE.CONFIG" DiskId="1" Guid="E0E1B1D2-C6AC-41D0-B249-41F047468DC7">
+            <File Id="GUIDEHOUNDEPG.EXE.CONFIG" Name="GuideHoundEPG.exe.config" Source="..\bin\GuideHoundEPG.exe.config" />
+          </Component>
+          <Component Id="GUIDEHOUNDEPGCONFIGURATION.EXE" DiskId="1" Guid="4BD3A44C-42A7-4604-8DBD-CE35AE097192">
+            <File Id="GUIDEHOUNDEPGCONFIGURATION.EXE" Name="GuideHoundEPGConfiguration.exe" Source="..\bin\GuideHoundEPGConfiguration.exe" />
+          </Component>
+          <Component Id="GUIDEHOUNDEPGCONFIGURATION.EXE.CONFIG" DiskId="1" Guid="8D06C6F1-8762-429E-947C-369DF45D953A">
+            <File Id="GUIDEHOUNDEPGCONFIGURATION.EXE.CONFIG" Name="GuideHoundEPGConfiguration.exe.config" Source="..\bin\GuideHoundEPGConfiguration.exe.config" />
+          </Component>
+          <Component Id="ICSHARPCODE.SHARPZIPLIB.DLL" DiskId="1" Guid="93B926E1-C758-498F-815E-8A6051E66648">
+            <File Id="ICSHARPCODE.SHARPZIPLIB.DLL" Name="ICSharpCode.SharpZipLib.dll" Source="..\bin\ICSharpCode.SharpZipLib.dll" />
+          </Component>
+          <Component Id="LOG4NET.DLL" DiskId="1" Guid="E5D38F4A-65AC-483A-845B-403AE4EF1B9E">
+            <File Id="LOG4NET.DLL" Name="log4net.dll" Source="..\bin\log4net.dll" />
+          </Component>
+          <Component Id="MICROSOFT.WIN32.TASKSCHEDULER.DLL" DiskId="1" Guid="3736CDC8-C5B5-4BDD-859C-4C82239B41B7">
+            <File Id="MICROSOFT.WIN32.TASKSCHEDULER.DLL" Name="Microsoft.Win32.TaskScheduler.dll" Source="..\bin\Microsoft.Win32.TaskScheduler.dll" />
+          </Component>
+          <Component Id="SERVICES.MOVIEDBLOOKUP.DLL" DiskId="1" Guid="1A50EC30-7101-41CE-8C2A-F800FCE86A2A">
+            <File Id="SERVICES.MOVIEDBLOOKUP.DLL" Name="Services.MoviedbLookup.dll" Source="..\bin\Services.MoviedbLookup.dll" />
+          </Component>
+          <Component Id="SERVICES.TVDBLOOKUP.DLL" DiskId="1" Guid="5AE89923-9704-4CD7-BAFF-3953F15EE44A">
+            <File Id="SERVICES.TVDBLOOKUP.DLL" Name="Services.TvdbLookup.dll" Source="..\bin\Services.TvdbLookup.dll" />
+          </Component>
+          <Component Id="SYSTEM.WINDOWS.INTERACTIVITY.DLL" DiskId="1" Guid="8EF1EA72-15D9-4E33-889C-DBF0CBA7A450">
+            <File Id="SYSTEM.WINDOWS.INTERACTIVITY.DLL" Name="System.Windows.Interactivity.dll" Source="..\bin\System.Windows.Interactivity.dll" />
+          </Component>
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ProgramMenuDir" Name="GuideHound EPG">
+
+          <Component Id="CMP_StartMenuShortcuts" Guid="df41f921-5b22-483e-b45c-e4b27b6d4479">
+            <RemoveFolder Id="ProgramMenuDir" On="uninstall" />
+
+            <RegistryValue Root="HKCU"
+              Key="Software\[Manufacturer]\[ProductName]"
+              Name="installed"
+              Type="integer"
+              Value="1"
+              KeyPath="yes" />
+
+            <util:InternetShortcut Id="GettingStartedGuideShortcut" Name="Getting Started Guide" Target="http://www.tvguidehound.com/getting-started/" />
+
+            <Shortcut Id="GuideHoundImporterShortcut"
+                      Name="Run GuideHound EPG Importer"
+                      Description="Runs the GuideHound EPG Importer."
+                      Target="[INSTALLLOCATION]GuideHoundEPG.exe" />
+
+            <Shortcut Id="GuideHoundConfigurationShortcut"
+                   Name="GuideHound EPG Configuration"
+                   Description="Runs the GuideHound EPG Configuration Program."
+                   Target="[INSTALLLOCATION]GuideHoundEPGConfiguration.exe" />
+
+          </Component>
+        </Directory>
+      </Directory>
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="EpgImporter" Name="EpgImporter">
+          <Component Id="CMP_ProgramDataFolderPermissions" Guid="84A264EF-2BC5-41e3-8124-2CA10C2805DB" KeyPath="yes">
+            <CreateFolder  Directory="EpgImporter">
+              <Permission User="Everyone" GenericAll="yes" />
+            </CreateFolder>
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id="ProductFeature" Title="GuideHoundEPGSetup" Level="1">
+
+      <ComponentRef Id="CONFIG_DEFAULT.XML" />
+      <ComponentRef Id="CORE.LICENSING.DLL" />
+      <ComponentRef Id="CORE.LICENSING.PRIVATE.DLL" />
+      <ComponentRef Id="CORE.LOGGING.DLL" />
+      <ComponentRef Id="CORE.UI.CONTROLS.DLL" />
+      <ComponentRef Id="CORE.UI.DLL" />
+      <ComponentRef Id="GALASOFT.MVVMLIGHT.EXTRAS.WPF4.DLL" />
+      <ComponentRef Id="GALASOFT.MVVMLIGHT.WPF4.DLL" />
+      <ComponentRef Id="GUIDEHOUNDEPG.COMMON.DLL" />
+      <ComponentRef Id="GUIDEHOUNDEPG.EXE" />
+      <ComponentRef Id="GUIDEHOUNDEPG.EXE.CONFIG" />
+      <ComponentRef Id="GUIDEHOUNDEPGCONFIGURATION.EXE" />
+      <ComponentRef Id="GUIDEHOUNDEPGCONFIGURATION.EXE.CONFIG" />
+      <ComponentRef Id="ICSHARPCODE.SHARPZIPLIB.DLL" />
+      <ComponentRef Id="LOG4NET.DLL" />
+      <ComponentRef Id="MICROSOFT.WIN32.TASKSCHEDULER.DLL" />
+      <ComponentRef Id="SERVICES.MOVIEDBLOOKUP.DLL" />
+      <ComponentRef Id="SERVICES.TVDBLOOKUP.DLL" />
+      <ComponentRef Id="SYSTEM.WINDOWS.INTERACTIVITY.DLL" />
+
+      <ComponentRef Id="CMP_ProgramDataFolderPermissions" />
+      <ComponentRef Id="CMP_StartMenuShortcuts" />
+
+    </Feature>
+
+    <WixVariable Id="WixUILicenseRtf"
+              Value="EULA.rtf" />
+
+    <UIRef Id="WixUI_Minimal" />
+    <PropertyRef Id="NETFRAMEWORK40FULL" />
+    <Condition Message="This application requires .NET Framework 4.">Installed OR NETFRAMEWORK40FULL</Condition>
+    <Condition Message="This application requires Microsoft Windows 7.">VersionNT = 601</Condition>
+    <Icon Id="DesktopIcon.exe" SourceFile="..\bin\GuideHoundEPGConfiguration.exe" />
+
+    <!--Upgrade element-->
+    <Upgrade Id="03678BBF-22D0-471f-9C94-A3156C8A2292">
+      <UpgradeVersion
+           Property="OLD_VERSION_FOUND"
+           Minimum="1.0.0.0"
+           Maximum="1.0.5.0"
+           IncludeMinimum="yes"
+           IncludeMaximum="no"
+           OnlyDetect="no"
+           IgnoreRemoveFailure="yes"
+           MigrateFeatures="yes"
+           Language="1033" />
+    </Upgrade>
+
+    <InstallExecuteSequence>
+      <RemoveExistingProducts After="InstallFinalize" />
+    </InstallExecuteSequence>
+    
+  </Product>
+
+</Wix>

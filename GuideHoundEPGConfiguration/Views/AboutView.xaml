@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="GuideHoundEPG.UI.Views.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="501" Width="535">
+    <UserControl.Resources>
+        <Style x:Key="seperatorStyle" TargetType="Border">
+            <Setter Property="BorderBrush" Value="Black"  />
+            <Setter Property="BorderThickness" Value="0,1,0,0"  />
+            <Setter Property="Width" Value="300" />
+        </Style>
+    </UserControl.Resources>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+
+            <Grid Margin="0,30,0,0" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" >
+                    <Image Source="/Images/Download.ico" Width="42" Height="42" />
+                    <TextBlock Text="GuideHound EPG" FontSize="26" Margin="5" />
+                    <TextBlock Text="v " FontSize="12" Margin="0,0,0,9" VerticalAlignment="Bottom"/>
+                    <TextBlock Text="{Binding ApplicationVersion}" FontSize="12" Margin="0,0,0,9" VerticalAlignment="Bottom" />
+                </StackPanel>
+                <TextBlock Text="EPG Importer for Windows 7 Media Center " FontSize="10" Margin="62,0,0,-3" VerticalAlignment="Bottom" />
+            </Grid>
+            <Border Margin="0,10,0,0" HorizontalAlignment="Center" Style="{StaticResource seperatorStyle}"/>
+
+            <TextBlock Margin="20"  FontSize="12" TextWrapping="Wrap" ><Run Text="MIT License "/><LineBreak/><Run/><LineBreak/><Run Text="Copyright (c) 2016 Andrew Jackson "/><LineBreak/><Run/><LineBreak/><Run Text="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: "/><LineBreak/><Run/><LineBreak/><Run Text="The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. "/><LineBreak/><Run/><LineBreak/><Run Text="THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."/></TextBlock>
+           
+            <StackPanel Margin="0,10,0,5" Orientation="Horizontal" HorizontalAlignment="Center"/>
+
+            <!--<StackPanel Margin="0,50,0,5" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Grid TextBlock.FontSize="12" MinWidth="250">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="License:" FontWeight="Bold" TextDecorations="Underline" Margin="4" Grid.ColumnSpan="2" Grid.Row="0" Grid.Column="0" />
+                    <TextBlock Text="Licensed To:" Margin="4" Grid.Row="1" Grid.Column="0" />
+                    <TextBlock Margin="4" Grid.Column="1" Text="{Binding License.LicensedTo}" Grid.Row="1" />
+                    <TextBlock Text="Expires:" Margin="4" Grid.Row="2" Grid.Column="0" />
+                    <TextBlock Margin="4" Grid.Column="1" Grid.Row="2" Text="{Binding License.Expires}" />
+                    <TextBlock Margin="4" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Text="{Binding License.Message}" />
+                    <Button Command="{Binding EnterLicenseCommand}" Content="Purchase / Enter License" Grid.Row="4" Grid.ColumnSpan="2" Margin="4" />
+                </Grid>
+            </StackPanel>-->
+
+        </StackPanel>
+        
+        <!--<GroupBox Padding="5" Margin="3,10,0,30" Width="300" HorizontalAlignment="Center" VerticalAlignment="Bottom" Style="{DynamicResource GroupBoxStyle}" BorderBrush="{DynamicResource GroupBoxBorderColor}">
+            <GroupBox.Header>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="License Details" FontWeight="Bold" />
+            </StackPanel>
+        </GroupBox.Header>
+
+            <Grid TextBlock.FontSize="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <TextBlock Text="Licensed To:" Margin="4" Grid.Row="0" Grid.Column="0" />
+            <TextBlock Margin="4" Grid.Column="1" Text="{Binding License.LicensedTo}" />
+            <TextBlock Text="Expires:" Margin="4" Grid.Row="1" Grid.Column="0" />
+            <TextBlock Margin="4" Grid.Row="1" Grid.Column="1" Text="{Binding License.Expires}" />
+            <TextBlock Margin="4" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding License.Message}" />
+
+        </Grid>
+    </GroupBox>-->    
+        
+    </DockPanel>
+</UserControl>
+
+    
+    

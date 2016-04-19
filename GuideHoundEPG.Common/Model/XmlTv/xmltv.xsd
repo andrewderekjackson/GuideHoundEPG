@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="actor">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="adapter">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="aspect">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="audio">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="present" minOccurs="0" />
+        <xs:element ref="stereo" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="category">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="channel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="display-name" maxOccurs="unbounded" />
+        <xs:element ref="icon" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="url" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="colour">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="commentator">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="country">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="credits">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="director" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="actor" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="writer" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="adapter" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="producer" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="presenter" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="commentator" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="guest" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="date">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="desc">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="director">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="display-name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="episode-num">
+    <xs:complexType mixed="true">
+      <xs:attribute name="system" type="xs:string" use="optional" default="onscreen" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="guest">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="icon">
+    <xs:complexType>
+      <xs:attribute name="height" type="xs:string" use="optional" />
+      <xs:attribute name="width" type="xs:string" use="optional" />
+      <xs:attribute name="src" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="language">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="last-chance">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="length">
+    <xs:complexType mixed="true">
+      <xs:attribute name="units" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="seconds" />
+            <xs:enumeration value="minutes" />
+            <xs:enumeration value="hours" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="new" type="xs:string" />
+
+  <xs:element name="orig-language">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="premiere">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="present">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="presenter">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="previously-shown">
+    <xs:complexType>
+      <xs:attribute name="channel" type="xs:string" use="optional" />
+      <xs:attribute name="start" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="producer">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="programme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title" maxOccurs="unbounded" />
+        <xs:element ref="sub-title" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="desc" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="credits" minOccurs="0" />
+        <xs:element ref="date" minOccurs="0" />
+        <xs:element ref="category" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="language" minOccurs="0" />
+        <xs:element ref="orig-language" minOccurs="0" />
+        <xs:element ref="length" minOccurs="0" />
+        <xs:element ref="icon" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="url" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="country" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="episode-num" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="video" minOccurs="0" />
+        <xs:element ref="audio" minOccurs="0" />
+        <xs:element ref="previously-shown" minOccurs="0" />
+        <xs:element ref="premiere" minOccurs="0" />
+        <xs:element ref="last-chance" minOccurs="0" />
+        <xs:element ref="new" minOccurs="0" />
+        <xs:element ref="subtitles" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="rating" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="star-rating" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="videoplus" type="xs:string" use="optional" />
+      <xs:attribute name="vps-start" type="xs:string" use="optional" />
+      <xs:attribute name="stop" type="xs:string" use="optional" />
+      <xs:attribute name="channel" type="xs:string" use="required" />
+      <xs:attribute name="clumpidx" type="xs:string" use="optional" default="0/1" />
+      <xs:attribute name="showview" type="xs:string" use="optional" />
+      <xs:attribute name="pdc-start" type="xs:string" use="optional" />
+      <xs:attribute name="start" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="rating">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="value" />
+        <xs:element ref="icon" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="system" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="star-rating">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="value" />
+        <xs:element ref="icon" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="stereo">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="sub-title">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="subtitles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="language" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="type" use="optional">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="teletext" />
+            <xs:enumeration value="onscreen" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="title">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="tv">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="channel" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element ref="programme" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="date" type="xs:string" use="optional" />
+      <xs:attribute name="generator-info-url" type="xs:string" use="optional" />
+      <xs:attribute name="generator-info-name" type="xs:string" use="optional" />
+      <xs:attribute name="source-data-url" type="xs:string" use="optional" />
+      <xs:attribute name="source-info-url" type="xs:string" use="optional" />
+      <xs:attribute name="source-info-name" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="url">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="value">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="video">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="present" minOccurs="0" />
+        <xs:element ref="colour" minOccurs="0" />
+        <xs:element ref="aspect" minOccurs="0" />
+        <xs:element ref="quality" minOccurs="0" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="writer">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+  <xs:element name="quality">
+    <xs:complexType mixed="true" />
+  </xs:element>
+
+</xs:schema>

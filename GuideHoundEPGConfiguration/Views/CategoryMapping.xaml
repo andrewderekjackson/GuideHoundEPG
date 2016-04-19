@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="GuideHoundEPG.UI.Views.CategoryMapping"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="403" d:DesignWidth="612" >
+    <UserControl.Resources>
+        <CollectionViewSource x:Key="categoryTypes" Source="{Binding Config.CategoryTypes}" />
+    </UserControl.Resources>
+    
+    <GroupBox Padding="5" Margin="3" Style="{DynamicResource GroupBoxStyle}" BorderBrush="{DynamicResource GroupBoxBorderColor}">
+        <GroupBox.Header>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Category Mapping" FontWeight="Bold" />
+            </StackPanel>
+        </GroupBox.Header>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <CheckBox 
+                Grid.Row="0"
+                Margin="3" 
+                IsChecked="{Binding Config.IsCategoryMappingEnabled}" 
+                Content="Map categories in the source XMLTV file to Media Center categories in the output file." />
+            <DataGrid 
+                Margin="0,0,0,5"
+                Grid.Row="1"
+                Name="dataGrid2" 
+                IsReadOnly="False"
+                IsEnabled="{Binding Config.IsCategoryMappingEnabled}"
+                CanUserAddRows="True"
+                AutoGenerateColumns="False"
+                ItemsSource="{Binding Config.CategoryMapping}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Source Category" Binding="{Binding SourceCategory}" Width="*"/>
+                    <DataGridComboBoxColumn Header="Category" SelectedValueBinding="{Binding MappedCategory}" SelectedValuePath="Category" DisplayMemberPath="CategoryName"  ItemsSource="{Binding Source={StaticResource categoryTypes}}" MinWidth="200" />
+                </DataGrid.Columns>
+            </DataGrid>    
+            
+        </Grid>
+    </GroupBox>
+</UserControl>
+

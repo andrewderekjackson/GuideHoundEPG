@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="GuideHoundEPG.UI.Views.CategoryDetection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="401" d:DesignWidth="728" >
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <CollectionViewSource x:Key="categoryTypes" Source="{Binding Config.CategoryTypes}" />
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <GroupBox  Padding="5" Margin="3" Style="{DynamicResource GroupBoxStyle}" BorderBrush="{DynamicResource GroupBoxBorderColor}" >
+        <GroupBox.Header>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Category Detection" FontWeight="Bold" />
+            </StackPanel>
+        </GroupBox.Header>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <CheckBox 
+                Grid.Row="0"
+                Margin="3" 
+                IsChecked="{Binding Config.IsKeywordDetectionEnabled}" 
+                Content="Match a program depending on whether the title contains a particular keyword or phrase (and optionally remove the word from the title):" />
+            
+            <DataGrid 
+                Margin="0,0,0,5"
+                Grid.Row="1"
+                Name="dataGrid2" 
+                IsReadOnly="False"
+                IsEnabled="{Binding Config.IsKeywordDetectionEnabled}"
+                CanUserAddRows="True"
+                AutoGenerateColumns="False"
+                ItemsSource="{Binding Config.Keywords}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Keyword" Binding="{Binding Word}" Width="*"/>
+                    <DataGridComboBoxColumn Header="Category" SelectedValueBinding="{Binding Category}" SelectedValuePath="Category" DisplayMemberPath="CategoryName"  ItemsSource="{Binding Source={StaticResource categoryTypes}}" MinWidth="200" />
+                    <DataGridCheckBoxColumn Header="Remove Word" Binding="{Binding RemoveKeyword}"  />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <CheckBox 
+                Margin="3" 
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
+                IsEnabled="{Binding Config.IsKeywordDetectionEnabled}"
+                IsChecked="{Binding Config.MovieDurationMatchingEnabled}">
+                <StackPanel Orientation="Horizontal" IsEnabled="{Binding Config.MovieDurationMatchingEnabled}">
+                    <TextBlock Text="Match as a movie if the duration is between " VerticalAlignment="Center" />
+                    <TextBox Width="30" Text="{Binding Config.MinimumMovieDurationInMinutes}" Margin="2,0,2,0"/>
+                    <TextBlock Text=" and " VerticalAlignment="Center" Margin="2,0,2,0" />
+                    <TextBox Width="30" Text="{Binding Config.MaximumMovieDurationInMinutes}" Margin="2,0,2,0"/>
+                    <TextBlock Text=" minutes (ignoring durations of 90 and 120 minutes exactly)." VerticalAlignment="Center" Margin="2,0,2,0"/>
+                </StackPanel>
+            </CheckBox>
+            
+            <CheckBox 
+                Margin="3" 
+                Grid.Row="3"
+                Grid.ColumnSpan="2"
+                IsEnabled="{Binding Config.IsKeywordDetectionEnabled}"
+                IsChecked="{Binding Config.UseDefaultIfUnmatched}">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="If no match was found for a program, use:  " VerticalAlignment="Center" />
+                    <ComboBox IsEnabled="{Binding Config.UseDefaultIfUnmatched}" SelectedValue="{Binding Config.UnmatchedCategory}" SelectedValuePath="Category" DisplayMemberPath="CategoryName"  ItemsSource="{Binding Source={StaticResource categoryTypes}}" MinWidth="150" />                    
+                    
+                    
+                </StackPanel>
+            </CheckBox>
+            
+
+
+        </Grid>
+    </GroupBox>
+</UserControl>
+

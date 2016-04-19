@@ -1,0 +1,255 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Icon="pack://application:,,,/Images/Download.ico"
+    xmlns:views="clr-namespace:GuideHoundEPG.UI.Views" 
+    xmlns:c="clr-namespace:Core.UI.Controls;assembly=Core.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    TextOptions.TextFormattingMode="Display"
+    x:Class="GuideHoundEPG.UI.Windows.ConfigurationWindow"
+    Title="GuideHound EPG Configuration" Height="683.29" Width="942" mc:Ignorable="d" Background="{DynamicResource BackgroundBlue}">
+    <Window.Resources>
+        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/CommonStylesDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <CollectionViewSource x:Key="sources" Source="{Binding Config.Sources}" />
+            <CollectionViewSource x:Key="channelIdListForSelectedChannel" Source="{Binding Config.ChannelIdListForSelectedChannel}" />
+
+            <DataTemplate x:Key="SourceItemTemplate">
+                <StackPanel>
+                    <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                    <TextBlock Text="{Binding Description}" FontSize="9"/>
+                </StackPanel>
+            </DataTemplate>
+
+            <Style x:Key="DataGridColumnHeader2" TargetType="DataGridColumnHeader">
+                <Setter Property="Background" Value="Green" />
+            </Style>
+        
+        </ResourceDictionary>
+
+
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+
+        <Menu Background="White" Opacity="0.7">
+            <MenuItem Header="File" >
+                <MenuItem Header="_Save" InputGestureText="Ctrl-S" Command="{Binding SaveCommand}">
+                    <MenuItem.Icon>
+                        <Image Source="/Images/saveHS.png" Height="16" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Command="{Binding RunImportCommand}" Header="Run Import...">
+                    <MenuItem.Icon>
+                        <Image Source="/Images/PlayHS.png" Height="16" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="_Quit" InputGestureText="Ctrl-Q" Command="{Binding CloseCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Advanced">
+                <MenuItem Header="Open Output Folder..." Command="{Binding OpenOutputFolderCommand}" />
+                <MenuItem Header="Open Log Folder..." Command="{Binding OpenLogFolderCommand}" />
+                
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="About..."  Command="{Binding AboutCommand}">
+                    <MenuItem.Icon>
+                        <Image Source="/Images/Help.png" Height="16" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+
+
+        <!--<ToolBar Grid.Row="0" Margin="-8,-1,-15, -1" Opacity="0.9">
+                <Menu Margin="0, -1, 0, 0" Style="{x:Null}">
+                    <MenuItem Header="_File">
+                        <MenuItem Header="Save"/>
+                        <MenuItem Header="Quit"/>
+                    </MenuItem>
+                </Menu>
+                <Menu Margin="0, -1, 0, 0" Style="{x:Null}">
+                    <MenuItem Header="Sources">
+                        <MenuItem Header="File">
+                            <MenuItem Header="Copy"/>
+                            <MenuItem Header="Paste"/>
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
+                <Menu Margin="0, -1, 0, 0" Style="{x:Null}">
+                    <MenuItem Header="Help">
+                        <MenuItem Header="File">
+                            <MenuItem Header="Copy"/>
+                            <MenuItem Header="Paste"/>
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
+            </ToolBar>-->
+
+        <ToolBar Grid.Row="1"  Margin="-8,-1,-15,-1" Opacity="0.9">
+            <Button Command="{Binding SaveCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/saveHS.png" Height="16" />
+                    <TextBlock Margin="4,0,0,0" Text="Save" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Separator />
+            <Button Command="{Binding RunImportCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Images/PlayHS.png" Height="16" />
+                    <TextBlock Text="Run Import" VerticalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Separator />
+            
+            
+                      
+
+        </ToolBar>
+
+            
+       
+        
+        <TabControl 
+            Grid.Row="2" 
+            Margin="15,15,15,15"
+            TabStripPlacement="Top"
+            Name="tabControl1" Opacity="1" 
+            Background="{DynamicResource TabBackground}">
+            <TabItem Name="tabItem1">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Margin="5" Source="/Images/Download.ico" />
+                        <TextBlock Text="Sources" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+
+                <ContentPresenter Content="{Binding SourcesViewModel}" />
+               
+
+            </TabItem>
+            <TabItem Name="tabItem2">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Margin="5" Source="/Images/Media.ico" />
+                        <TextBlock Text="Channels" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+
+                <ContentPresenter Content="{Binding ChannelsViewModel}" />
+
+            </TabItem>
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Margin="5" Source="/Images/Favorite.ico" />
+                        <TextBlock Text="Channel Logos" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+
+                <ContentPresenter Content="{Binding ChannelLogoViewModel}" />
+            </TabItem>
+            <TabItem>
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Margin="5" Source="/Images/Info2.ico" />
+                    <TextBlock Text="Category Mapping" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <DockPanel LastChildFill="True">
+
+                    <ContentPresenter Content="{Binding CategoryMappingViewModel}" />
+
+            </DockPanel>
+        </TabItem>
+        <TabItem Name="Options">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Margin="5" Source="/Images/Gears.ico" />
+                    <TextBlock Text="Category Detection" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+                <ContentPresenter Content="{Binding CategoryDetectionViewModel}" />
+        </TabItem>
+		<!--<TabItem>
+			    <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Margin="5" Source="/Images/Link.ico" />
+                        <TextBlock Text="Plugins" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+            	
+			<views:PluginsView 
+                    x:Name="PluginsView" />
+						
+		</TabItem>-->
+        <TabItem Name="tabItem3">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="16" Margin="5" Source="/Images/Face happy.ico" />
+                        <TextBlock Text="Options" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+                <StackPanel>
+                    <ContentPresenter Content="{Binding MetadataOptionsViewModel}" />
+                    <ContentPresenter Content="{Binding OutputOptionsViewModel}" />
+            </StackPanel>
+
+            </TabItem>
+        <TabItem Name="tabItem4">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Margin="5" Source="/Images/Link.ico" />
+                    <TextBlock Text="Schedule" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+            <StackPanel>
+
+                    <ContentPresenter Content="{Binding SchedulerOptionsViewModel}" />
+                    
+            </StackPanel>
+
+        </TabItem>
+        <!--<TabItem Visibility="Collapsed">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Margin="5" Source="/Images/Exclamation.ico" />
+                    <TextBlock Text="Advanced" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+				
+
+        </TabItem>-->
+            
+             <!--<TabItem Name="tabItem0">
+            <TabItem.Header>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="16" Margin="5" Source="/Images/Help.ico" />
+                    <TextBlock Text="About" VerticalAlignment="Center" />
+                </StackPanel>
+            </TabItem.Header>
+
+                <ContentPresenter Content="{Binding AboutViewModel}" />
+                
+            </TabItem>-->
+                       
+        </TabControl>
+   
+        <!--<TextBlock Foreground="White"  Margin="20,8,0,8" Grid.Row="2" Text="Andrew Jackson - andrewderekjackson@gmail.com" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Center"/>-->
+    </Grid>
+
+    
+
+</Window>

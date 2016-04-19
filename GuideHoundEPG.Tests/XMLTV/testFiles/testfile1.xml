@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="unit test">
+  <channel id="01">
+    <display-name>TV1</display-name>
+    <icon src="http://www.gbpvr.com/logo/TV1.jpeg" />
+  </channel>
+  <channel id="02">
+    <display-name>TV2</display-name>
+    <display-name>TV2-ALTERNATIVE</display-name>
+    <icon src="icons\colour\2.png" />
+  </channel>
+  <channel id="03">
+    <display-name>TV3</display-name>
+    <icon src="icons\colour\3.png" />
+  </channel>
+  <channel id="04">
+    <display-name>TV3plus1</display-name>
+  </channel>
+  <programme start="200910312320" stop="200911010115" channel="01">
+    <title lang="en">Half Broken Things</title>
+    <desc lang="en">Jean, a house-sitter on her final job in a country house, begins to live in the place as though she owns it and when fate brings two strangers to the house, she discovers the family she has always wan</desc>
+  </programme>
+  <programme start="200911010115" stop="200911010230" channel="01">
+    <title lang="en">Rough Diamond</title>
+    <desc lang="en">Crafty con-man Des usually works alone, but when glamorous ex-MI6 agent contacts him with a story about lost KGB gold, he is drawn into a shadowy world of spies, double-dealing and Cold War secrets.</desc>
+    <category></category>
+  </programme>
+  <programme start="200911010230" stop="200911010600" channel="01">
+    <title lang="en">BBC World 2009</title>
+    <desc lang="en"></desc>
+    <category>tvshow</category>
+    <category>News</category>
+  </programme>
+  <programme start="200911010600" stop="200911010625" channel="01">
+    <title lang="en">Mucking In</title>
+    <desc lang="en"></desc>
+    <category>drama</category>
+  </programme>
+  <programme channel="tv3.freeviewnz.tv" start="20100502070000 +1200" stop="20100502080000 +1200">
+    <title>Charles Stanley</title>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <rating system="Freeview">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="c4.freeviewnz.tv" start="20100428203000 +1200" stop="20100428224000 +1200">
+    <title>Blue Crush</title>
+    <desc>Nothing gets between Anne Marie and her board. Living in a beach shack with three roommates, she is up before dawn every morning to conquer the waves and count the days until the Pipe Masters competition. Having transplanted herself to Hawaii with no one's blessing but her own, Anne Marie finds all she needs in the adrenaline-charged surf scene - until pro quarterback Matt Tollman comes along...</desc>
+    <credits>
+      <director>John Stockwell</director>
+      <actor role="Anne Marie Chadwick">Kate Bosworth</actor>
+      <actor role="Matt Tollman">Matthew Davis</actor>
+      <actor role="Eden">Michelle Rodr&#237;guez</actor>
+      <actor role="Lena">Sanoe Lake</actor>
+      <actor role="Penny Chadwick">Mika Boorem</actor>
+      <actor role="Drew">Chris Taloa</actor>
+    </credits>
+    <date>20020808</date>
+    <category>movie</category>
+    <category>Drama</category>
+    <length units="minutes">104</length>
+    <url>http://www.themoviedb.org/movie/9266</url>
+    <rating system="Freeview">
+      <value>PGR</value>
+    </rating>
+    <star-rating>
+      <value>3.0/10</value>
+    </star-rating>
+  </programme>
+</tv>

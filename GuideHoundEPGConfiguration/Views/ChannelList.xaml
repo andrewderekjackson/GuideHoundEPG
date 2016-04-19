@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="GuideHoundEPG.UI.Views.ChannelList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:my="http://schemas.microsoft.com/wpf/2008/toolkit"
+             d:DesignHeight="374" d:DesignWidth="746">
+    
+    <GroupBox Padding="5" Margin="3" Style="{DynamicResource GroupBoxStyle}" BorderBrush="{DynamicResource GroupBoxBorderColor}">
+        <GroupBox.Header>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Channel Mapping" FontWeight="Bold" />
+                <!--<TextBlock Text=" (Map channels from XMLTV file to Windows Media Center channels in the output file)"  />-->
+            </StackPanel>
+
+        </GroupBox.Header>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock 
+            Margin="5,5,5,5" 
+            VerticalAlignment="Center" 
+            TextWrapping="Wrap" 
+            Grid.Row="0" 
+            Grid.Column="0">Map channels from XMLTV file to Windows Media Center channels in the output file:</TextBlock>
+            <DataGrid 
+            CanUserAddRows="False"
+            Margin="0,0,0,5"
+            Grid.Row="1"
+            Name="ChannelDataGrid" 
+            AutoGenerateColumns="False"
+            SelectedItem="{Binding Config.SelectedChannel}"
+            ItemsSource="{Binding Config.Channels}">
+                <DataGrid.Columns>
+                    
+                    <DataGridTextColumn Header="Source"  Binding="{Binding SourceName, Mode=OneWay}" Width="90" IsReadOnly="True" Foreground="Gray" />
+                    <DataGridTextColumn Header="Mapped Channel" Binding="{Binding XmlTvChannelId}" Width="Auto" IsReadOnly="True" Foreground="Gray" />
+                    <DataGridTextColumn Header="Channel" Binding="{Binding ChannelId}" Width="60" IsReadOnly="True" Foreground="Gray"/>
+                    <DataGridCheckBoxColumn Header="Is Audio" Binding="{Binding IsAudio}" Width="60" />
+                    <DataGridTextColumn Header="Channel Name" Binding="{Binding ChannelName}" Width="*" />
+                    <DataGridTextColumn Header="Logo (png or jpg)" Binding="{Binding LogoUrl}" Width="3*" />
+                    <DataGridCheckBoxColumn Header="Enabled" Binding="{Binding IsEnabled}" Width="60" />
+                </DataGrid.Columns>
+
+            </DataGrid>
+            <StackPanel Grid.Row="2" Orientation="Horizontal">
+                <Button Command="{Binding PopulateChannelsCommand}" Height="23" Padding="4,0,4,0">Populate Channels...</Button>
+                    
+            </StackPanel>
+
+        </Grid>
+    </GroupBox>
+
+
+</UserControl>

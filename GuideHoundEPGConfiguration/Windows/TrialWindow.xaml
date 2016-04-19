@@ -1,0 +1,40 @@
+﻿<Window x:Class="GuideHoundEPG.UI.Windows.TrialWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="License" Height="280" Width="396" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Margin="0,0,0,10">
+            <TextBlock Text="GuideHound EPG License" Margin="0,0,0,0" FontSize="14" FontWeight="Bold" />
+
+            <!--<TextBlock TextWrapping="Wrap"  Margin="0,5,0,0">
+                <Run Text="Thank you for trying out GuideHound EPG."  />
+            </TextBlock>-->
+        </StackPanel>
+        
+        
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Command="{Binding OkCommand}" Content="Continue >" Margin="0,0,0,0" Width="80" Height="24" />
+            <Button Command="{Binding CancelCommand}" x:Name="CancelButton" Content="Cancel" Margin="10,0,0,0" Width="80" Height="23" />
+        </StackPanel>
+        <RadioButton IsChecked="{Binding StartTrialSelected}" Content="Start a 30 day trial." Grid.Row="1" Height="16" HorizontalAlignment="Left" Margin="12,0,0,0" Name="radioButton1" VerticalAlignment="Top" FontWeight="Bold" />
+        <RadioButton IsChecked="{Binding EnterLicenseSelected}" Content="Enter your license to unlock the full version." Grid.Row="1" Height="16" HorizontalAlignment="Left" Margin="12,72,0,0" Name="radioButton2" VerticalAlignment="Top" FontWeight="Bold" />
+        <TextBlock Grid.Row="1" Height="27" HorizontalAlignment="Left" Margin="31,25,0,0" Name="textBlock1" Text="Select this option to start your fully functional 30 day trial." VerticalAlignment="Top" Width="321" FontStyle="Italic" TextWrapping="Wrap" />
+        <TextBlock TextWrapping="Wrap"  Margin="31,95,12,0" Grid.Row="1" FontStyle="Italic" Height="56" VerticalAlignment="Top">
+            <Run Text="Select this option to enter an existing license. "  />    
+            <Run Text="If you do not have a license and would like to purchase one, you may do so on the website"  />
+                <Hyperlink Command="{Binding LaunchWebsiteCommand}">here</Hyperlink>
+                <Run Text="."  />
+        </TextBlock>
+        <TextBlock Visibility="{Binding IsRequesting, Converter={StaticResource BooleanToVisibilityConverter}}" Grid.Row="2" Height="20" HorizontalAlignment="Left" Margin="30,0,0,0" Name="textBlock2" Text="Requesting..." VerticalAlignment="Top" Width="147" Foreground="Green" />
+    </Grid>
+</Window>

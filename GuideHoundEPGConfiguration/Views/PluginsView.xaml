@@ -1,0 +1,45 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="GuideHoundEPG.UI.Views.PluginsView"
+	x:Name="UserControl"
+	UseLayoutRounding="True"
+	d:DesignWidth="454.5" d:DesignHeight="265.5">
+
+	<GroupBox Padding="5" Margin="3" Style="{DynamicResource GroupBoxStyle}" BorderBrush="{DynamicResource GroupBoxBorderColor}">
+		<GroupBox.Header>
+			<StackPanel Orientation="Horizontal">
+				<TextBlock Text="Plugins" FontWeight="Bold" />
+			</StackPanel>
+
+		</GroupBox.Header>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+			
+			<ListBox
+				x:Name="PluginListBox"
+				ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+				Margin="0,0,0,5"
+				Grid.Row="1" 
+				SelectedItem="{Binding Config.SelectedPlugin}" ItemContainerStyle="{DynamicResource ListBoxItemStyle1}">
+				<ListBoxItem Content="This is my plugin description"/>
+				<ListBoxItem Content="This is my plugin description"/>
+				<ListBoxItem Content="This is my plugin description"/>
+				<ListBoxItem Content="This is my plugin description"/>
+			</ListBox>
+
+		</Grid>
+	</GroupBox>
+	
+	</UserControl>

@@ -1,0 +1,68 @@
+﻿<UserControl x:Class="GuideHoundEPG.UI.Views.SourcesList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:my="http://schemas.microsoft.com/wpf/2008/toolkit"
+             d:DesignHeight="248" d:DesignWidth="510">
+    
+    <GroupBox Margin="3" Style="{DynamicResource GroupBoxStyle}" BorderBrush="{DynamicResource GroupBoxBorderColor}">
+		<GroupBox.Header>
+			<StackPanel Orientation="Horizontal">
+				<TextBlock Text="Sources" FontWeight="Bold" />
+				<!--<TextBlock Text=" (Map channels from XMLTV file to Windows Media Center channels in the output file)"  />-->
+			</StackPanel>
+
+		</GroupBox.Header>
+		<Grid >
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+
+            <ListBox
+				x:Name="SourceListBox"
+				ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+				Margin="5"
+				Grid.Row="0"
+				ItemsSource="{Binding Config.Sources}" 
+				SelectedItem="{Binding Config.SelectedSource}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <i:InvokeCommandAction Command="{Binding EditSourceCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <ListBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding EditSourceCommand}" />
+                    <KeyBinding Key="Delete" Command="{Binding DeleteSourceCommand}" />
+                    <KeyBinding Key="Insert" Command="{Binding AddSourceCommand}" />
+                </ListBox.InputBindings>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock x:Name="sourceName" Grid.Row="0" DockPanel.Dock="Top" Margin="2" Text="{Binding SourceDisplayName}" FontSize="13" FontWeight="Bold" TextTrimming="CharacterEllipsis" />
+                            <TextBlock x:Name="sourceUrl" Grid.Row="1" DockPanel.Dock="Top" Margin="2" Text="{Binding SourceUri}" TextTrimming="CharacterEllipsis" FontSize="11" Foreground="Black" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <Button Command="{Binding AddSourceCommand}" Content="Add" Width="60" Height="23" Margin="4,2,2,2" />
+                <Button Command="{Binding EditSourceCommand}" Content="Edit" Width="60" Height="23" Margin="2"/>
+                <Button Command="{Binding DeleteSourceCommand}" Content="Delete" Width="60" Height="23" Margin="2"/>
+			</StackPanel>
+
+		</Grid>
+	</GroupBox>
+
+</UserControl>

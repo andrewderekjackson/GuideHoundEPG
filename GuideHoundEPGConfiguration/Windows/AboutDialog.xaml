@@ -1,0 +1,12 @@
+﻿<Window x:Class="GuideHoundEPG.UI.Windows.AboutDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About" 
+        Height="342" 
+        Width="492" 
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <ContentPresenter Content="{Binding AboutViewModel}" />
+    
+    
+</Window>

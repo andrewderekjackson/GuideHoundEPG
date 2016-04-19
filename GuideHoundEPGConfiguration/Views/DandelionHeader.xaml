@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Win7EPGDownloader.UI.Views.DandelionHeader"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel 
+            Orientation="Horizontal"
+            Grid.Column="0"
+            Grid.Row="0">
+
+            <TextBlock 
+        		VerticalAlignment="Top"
+        		FontFamily="Segoe Media Center Light" 
+        		FontSize="24"  Margin="0,1.85,0,0"  Width="361.593" Foreground="#FFDEDEDE"  ><Run FontFamily="Magneto" FontSize="26.667" Text="Dandelion"/></TextBlock>
+
+            <TextBlock 
+                Margin="5,0,0,10"
+                VerticalAlignment="Bottom"
+                FontFamily="Segoe Media Center Light" 
+                FontSize="9" 
+                Text="{Binding ApplicationVersion}" />
+
+        </StackPanel>
+			
+			<StackPanel Orientation="Horizontal" Grid.Row="3"></StackPanel>
+    </Grid>
+</UserControl>
